@@ -20,4 +20,10 @@
 - **Hur** påverkar val av **organisationsform**, som kollektiv eller enskild firma, ett konstnärskap och dess möjligheter att nå ut?
 - **Hur** kan **motstånd** och en **kritisk hållning** vara en drivkraft i konstnärligt skapande, och hur uttrycker man detta i sitt arbete?
 - **Vilken effekt** har konstnärens **boendesituation** och strävan efter **autonomi** på deras arbete och konstnärliga **frihet**?
-- **Hur** förhåller sig konstnären till **produ
+- **Hur** förhåller sig konstnären till **produktionstakten** och **temporaliteten** i sitt skapande, och hur kan man skapa **tidlösa** verk?
+- **Hur** förenar man **effektivitet** i sitt konstnärskap med behovet av **variation** och **experimentell frihet**?
+- **Hur** kan en **långsam arbetsprocess** och **dokumentation** av konstnärskapet bidra till en djupare förståelse och **uppskattning** av konsten?
+- **På vilket sätt** kan disciplinära **gränser** överskridas i konstnärskapet, och hur kan **interdisciplinärt arbete** berika konstens **uttrycksformer**?
+- **Vilka strategier** kan konstnärer använda för att **distribuera** sitt arbete effektivt utan att kompromissa med **konstens integritet**?
+- **Hur** navigerar man som konstnär i **sociala medier** för att nå ut utan att bli en slav under **popularitetskultur**?
+- **Hur** förhåller sig konstnärer till **konstvärldens elit**, och hur väljer man att involvera eller distansera sig från denna för att behålla sin konstnärliga **integritet**?
