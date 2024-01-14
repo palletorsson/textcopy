@@ -28,3 +28,29 @@
 - **Hur** kan vår **konsumtion** och **interaktioner** bli de produkter som säljs i den **digitala ekonomin**?
 - **Vad innebär** oskiljaktigheten mellan **distribution** och **filtrering** i den digitala eran?
 - **Har skrift och läsning** en framtid i en värld där ytlig **konsumtion** och snabba **intryck** dominerar?
+
+
+### Resurser
+1. Vilka resurser (finansiella, materiella, mänskliga) är mest kritiska för vår framtida framgång?
+2. Hur kan vi säkerställa en hållbar och etisk användning av våra resurser?
+3. På vilket sätt kan vi diversifiera våra resurser för att minska risker?
+
+### Autonomi
+1. Hur definierar vi autonomi inom vår organisation eller vårt projekt?
+2. På vilka sätt kan ökad autonomi främja innovation och kreativitet?
+3. Vilka utmaningar kan uppstå med ökad autonomi och hur kan vi förbereda oss för dessa?
+
+### Tid
+1. Hur kan vi effektivisera vår tidsanvändning för att maximera produktivitet utan att offra kvalitet?
+2. På vilket sätt kan vi balansera kortsiktiga mål med långsiktig vision?
+3. Vilka strategier kan vi använda för att hantera tidspress och deadlines mer effektivt?
+
+### Distribution
+1. Vilka distributionskanaler är mest effektiva för att nå vår målgrupp?
+2. Hur kan vi anpassa vår distributionsstrategi för att möta föränderliga marknadskrav?
+3. På vilket sätt kan teknologi och digitalisering förbättra vår distributionsprocess?
+
+### Övergripande frågor
+1. Vad är den enskilt viktigaste faktorn för vår framtida framgång?
+2. Finns det några områden eller faktorer som vi för närvarande ignorerar eller underskattar?
+3. Hur kan vi balansera dessa fyra områden (resurser, autonomi, tid, distribution) för att skapa en harmonisk och hållbar framtid?
