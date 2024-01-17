@@ -1,56 +1,124 @@
+  
+## Spelmotorspecifika Skriptexempel
 
-## Frågor om Konstnärskapets Förhandlingar
-- **Hur** kan olika **metoder** skapa **mångfald** i konstnärligt uttryck och hur väljer man rätt metod för att förmedla ett visst **budskap** eller **känsla**?
-- **På vilket sätt** kan **vänskap** och **nätverkande** påverka och bidra till ett konstnärskap, och hur kan dessa relationer utnyttjas etiskt inom **konsten**?
-- **Hur** balanserar man behovet av **resurser** med önskan om att bevara **konstens autenticitet** och undvika **kommersialisering**?
-- **Vilken roll** spelar **forskning** och **materialval** i utformningen av ett konstnärligt verk, och hur kan kunskap om material bidra till verkets **varaktighet** och **mottagande**?
-- **Hur** hittar man en balans mellan **ekonomisk trygghet** och **kreativ risktagning** i sitt konstnärskap?
-- **Hur** påverkar val av **organisationsform**, som kollektiv eller enskild firma, ett konstnärskap och dess möjligheter att nå ut?
-- **Hur** kan **motstånd** och en **kritisk hållning** vara en drivkraft i konstnärligt skapande, och hur uttrycker man detta i sitt arbete?
-- **Vilken effekt** har konstnärens **boendesituation** och strävan efter **autonomi** på deras arbete och konstnärliga **frihet**?
-- **Hur** förhåller sig konstnären till **produktionstakten** och **temporaliteten** i sitt skapande, och hur kan man skapa **tidlösa** verk?
-- **Hur** förenar man **effektivitet** i sitt konstnärskap med behovet av **variation** och **experimentell frihet**?
-- **Hur** kan en **långsam arbetsprocess** och **dokumentation** av konstnärskapet bidra till en djupare förståelse och **uppskattning** av konsten?
-- **På vilket sätt** kan disciplinära **gränser** överskridas i konstnärskapet, och hur kan **interdisciplinärt arbete** berika konstens **uttrycksformer**?
-- **Vilka strategier** kan konstnärer använda för att **distribuera** sitt arbete effektivt utan att kompromissa med **konstens integritet**?
-- **Hur** navigerar man som konstnär i **sociala medier** för att nå ut utan att bli en slav under **popularitetskultur**?
-- **Hur** förhåller sig konstnärer till **konstvärldens elit**, och hur väljer man att involvera eller distansera sig från denna för att behålla sin konstnärliga **integritet**?
-- 
-## Frågor om Digitaliseringens Påverkan
-- **Hur** kan **beständighet** och **varaktig påverkan** uppnås i en värld där alla kan nå ut digitalt?
-- **Hur** har vår **digitala offentlighet** blivit förvrängd och vad betyder detta för **demokratin**?
-- **Hur** hanterar vi känslan av **maktlöshet** inför de obönhörliga systemen av **digital kapitalism**?
-- **Hur** kan människor navigera och hitta **mening** i ett digitalt medielandskap som känns främmande?
-- **På vilket sätt** är vår **subjektivitet** och förmågan att upprätthålla **uppmärksamhet** hotad i det digitala och sociala klimatet?
-- **Hur** hanterar vi konsekvenserna av ett **överskott av information** som kan leda till **desinformation** och **meningstapp**?
-- **På vilket sätt** formar **digitala plattformars** flyktiga natur vår förmåga att navigera i **tid och rum**?
-- **Hur** kan vi **demokratisera** "archival skills" för att hantera "industrialiseringen av minnet"?
-- **Hur** kan vår **konsumtion** och **interaktioner** bli de produkter som säljs i den **digitala ekonomin**?
-- **Vad innebär** oskiljaktigheten mellan **distribution** och **filtrering** i den digitala eran?
-- **Har skrift och läsning** en framtid i en värld där ytlig **konsumtion** och snabba **intryck** dominerar?
+I denna README presenteras exempel pÃ¥ hur man skapar en enkel rotation och fÃ¶rstÃ¶r ett objekt eller en nod baserat pÃ¥ dess avstÃ¥nd frÃ¥n startpositionen. Exemplen Ã¤r skrivna fÃ¶r tre olika spelmotorer: Unity (C#), Godot (GDScript) och Unreal Engine (C++).
 
+### Unity C# Exempel:
 
-### Resurser
-1. Vilka resurser (finansiella, materiella, mänskliga) är mest kritiska för vår framtida framgång?
-2. Hur kan vi säkerställa en hållbar och etisk användning av våra resurser?
-3. På vilket sätt kan vi diversifiera våra resurser för att minska risker?
+```csharp
+// MyRotation.cs
+using UnityEngine;
 
-### Autonomi
-1. Hur definierar vi autonomi inom vår organisation eller vårt projekt?
-2. På vilka sätt kan ökad autonomi främja innovation och kreativitet?
-3. Vilka utmaningar kan uppstå med ökad autonomi och hur kan vi förbereda oss för dessa?
+public class MyRotation : MonoBehaviour
+{
+    public float rotationSpeed = 10f;
+    private Vector3 originalPosition;
 
-### Tid
-1. Hur kan vi effektivisera vår tidsanvändning för att maximera produktivitet utan att offra kvalitet?
-2. På vilket sätt kan vi balansera kortsiktiga mål med långsiktig vision?
-3. Vilka strategier kan vi använda för att hantera tidspress och deadlines mer effektivt?
+    void Start()
+    {
+        originalPosition = transform.position;
+    }
 
-### Distribution
-1. Vilka distributionskanaler är mest effektiva för att nå vår målgrupp?
-2. Hur kan vi anpassa vår distributionsstrategi för att möta föränderliga marknadskrav?
-3. På vilket sätt kan teknologi och digitalisering förbättra vår distributionsprocess?
+    void Update()
+    {
+        transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
 
-### Övergripande frågor
-1. Vad är den enskilt viktigaste faktorn för vår framtida framgång?
-2. Finns det några områden eller faktorer som vi för närvarande ignorerar eller underskattar?
-3. Hur kan vi balansera dessa fyra områden (resurser, autonomi, tid, distribution) för att skapa en harmonisk och hållbar framtid?
+        if (Vector3.Distance(transform.position, originalPosition) > 10f)
+        {
+            Destroy(gameObject);
+        }
+    }
+}
+```
+
+I Unity C#-exemplet skapar vi en klass som Ã¤rver frÃ¥n `MonoBehaviour`. Den roterar ett GameObject och fÃ¶rstÃ¶r det om det rÃ¶r sig fÃ¶r lÃ¥ngt frÃ¥n sin ursprungliga position.
+
+### Godot GDScript Exempel:
+
+```gdscript
+# LerpSkybox.gd
+extends Spatial
+
+export var rotation_speed = 10.0
+var original_position
+
+func _ready():
+    original_position = global_transform.origin
+
+func _process(delta):
+    var rotation_amount = Vector3(0, rotation_speed * delta, 0)
+    rotate_y(rotation_amount.y)
+
+    if global_transform.origin.distance_to(original_position) > 10.0:
+        queue_free()
+```
+
+I Godot GDScript-exemplet anvÃ¤nder vi `Spatial` som bas fÃ¶r vÃ¥r klass. Skriptet roterar en nod och tar bort den frÃ¥n scenen om den rÃ¶r sig fÃ¶r lÃ¥ngt frÃ¥n sin startposition.
+
+### Unreal Engine C++ Exempel:
+
+```cpp
+// MyRotation.h
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "MyRotation.generated.h"
+
+UCLASS()
+class YOURPROJECTNAME_API AMyRotation : public AActor
+{
+    GENERATED_BODY()
+
+public:    
+    AMyRotation();
+
+protected:
+    virtual void BeginPlay() override;
+
+public:    
+    virtual void Tick(float DeltaTime) override;
+
+    UPROPERTY(EditAnywhere, Category="Rotation")
+    float RotationSpeed;
+
+private:
+    FVector OriginalPosition;
+};
+
+// MyRotation.cpp
+#include "MyRotation.h"
+
+AMyRotation::AMyRotation()
+{
+    PrimaryActorTick.bCanEverTick = true;
+
+    RotationSpeed = 10.0f;
+}
+
+void AMyRotation::BeginPlay()
+{
+    Super::BeginPlay();
+    
+    OriginalPosition = GetActorLocation();
+}
+
+void AMyRotation::Tick(float DeltaTime)
+{
+    Super::Tick(DeltaTime);
+
+    FRotator NewRotation = GetActorRotation();
+    NewRotation.Yaw += RotationSpeed * DeltaTime;
+    SetActorRotation(NewRotation);
+
+    if (FVector::Dist(GetActorLocation(), OriginalPosition) > 10.0f)
+    {
+        Destroy();
+    }
+}
+```
+
+I Unreal Engine C++-exemplet anvÃ¤nder vi en `AActor`-klass fÃ¶r att rotera en aktÃ¶r i spelmiljÃ¶n. Om aktÃ¶ren flyttar sig mer Ã¤n 10 enheter frÃ¥n sin startposition, fÃ¶rstÃ¶rs den.
+
+---
+Varje exempel visar en liknande funktionalitet anpassad till respektive spelmotor och programmeringssprÃ¥k. 
