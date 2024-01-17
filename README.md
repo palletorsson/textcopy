@@ -1,7 +1,7 @@
-  
+
 ## Spelmotorspecifika Skriptexempel
 
-I denna README presenteras exempel pÃ¥ hur man skapar en enkel rotation och fÃ¶rstÃ¶r ett objekt eller en nod baserat pÃ¥ dess avstÃ¥nd frÃ¥n startpositionen. Exemplen Ã¤r skrivna fÃ¶r tre olika spelmotorer: Unity (C#), Godot (GDScript) och Unreal Engine (C++).
+I denna README presenteras exempel på hur man skapar en enkel rotation och förstör ett objekt eller en nod baserat på dess avstånd från startpositionen. Exemplen är skrivna för tre olika spelmotorer: Unity (C#), Godot (GDScript) och Unreal Engine (C++).
 
 ### Unity C# Exempel:
 
@@ -31,7 +31,7 @@ public class MyRotation : MonoBehaviour
 }
 ```
 
-I Unity C#-exemplet skapar vi en klass som Ã¤rver frÃ¥n `MonoBehaviour`. Den roterar ett GameObject och fÃ¶rstÃ¶r det om det rÃ¶r sig fÃ¶r lÃ¥ngt frÃ¥n sin ursprungliga position.
+I Unity C#-exemplet skapar vi en klass som ärver från `MonoBehaviour`. Den roterar ett GameObject och förstör det om det rör sig för långt från sin ursprungliga position.
 
 ### Godot GDScript Exempel:
 
@@ -53,7 +53,7 @@ func _process(delta):
         queue_free()
 ```
 
-I Godot GDScript-exemplet anvÃ¤nder vi `Spatial` som bas fÃ¶r vÃ¥r klass. Skriptet roterar en nod och tar bort den frÃ¥n scenen om den rÃ¶r sig fÃ¶r lÃ¥ngt frÃ¥n sin startposition.
+I Godot GDScript-exemplet använder vi `Spatial` som bas för vår klass. Skriptet roterar en nod och tar bort den från scenen om den rör sig för långt från sin startposition.
 
 ### Unreal Engine C++ Exempel:
 
@@ -118,7 +118,7 @@ void AMyRotation::Tick(float DeltaTime)
 }
 ```
 
-I Unreal Engine C++-exemplet anvÃ¤nder vi en `AActor`-klass fÃ¶r att rotera en aktÃ¶r i spelmiljÃ¶n. Om aktÃ¶ren flyttar sig mer Ã¤n 10 enheter frÃ¥n sin startposition, fÃ¶rstÃ¶rs den.
+I Unreal Engine C++-exemplet använder vi en `AActor`-klass för att rotera en aktör i spelmiljön. Om aktören flyttar sig mer än 10 enheter från sin startposition, förstörs den.
 
 ---
-Varje exempel visar en liknande funktionalitet anpassad till respektive spelmotor och programmeringssprÃ¥k. 
+Varje exempel visar en liknande funktionalitet anpassad till respektive spelmotor och programmeringsspråk.
