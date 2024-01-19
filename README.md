@@ -1,4 +1,64 @@
 
+# Organizing Research Inspiration and Final Codebase
+
+## Research Inspiration Organization
+
+### 1. Dedicated Repository or Directory
+- Separate repository or directory for research and inspiration.
+
+### 2. Documentation
+- Document research findings, ideas, and resources in markdown files.
+
+### 3. Issue Tracking for Ideas
+- Track research ideas with GitHub Issues.
+- Use labels like "research", "idea", "inspiration".
+
+### 4. Branches for Experimental Work
+- Create branches for experimental ideas.
+- Merge successful experiments into the main project.
+
+### 5. Wiki for Comprehensive Documentation
+- Use GitHub Wiki for detailed research documentation.
+
+## Final Codebase Organization
+
+### 1. Clean and Structured Repository
+- Maintain a clean, well-structured repository for the final code.
+
+### 2. Clear Directory Structure
+- Organize code into directories based on functionality or modules.
+
+### 3. Documentation
+- Thorough documentation of setup, usage, and inline comments.
+
+### 4. Version Control Best Practices
+- Meaningful commit messages and a coherent commit history.
+- Implement a branching strategy for managing the code.
+
+### 5. Code Reviews and Pull Requests
+- Use pull requests for new features or changes.
+- Conduct code reviews for quality and consistency.
+
+## Integration and Reference
+
+- **Cross-Reference**: Link back to the research repository in the codebase documentation.
+- **README Overview**: Brief overview of the research in the main `README.md` of the codebase.
+
+## Tools and Automation
+
+- **GitHub Actions**: Automate tasks like testing, linting, or deployment.
+- **Research Tools Integration**: Integrate with research tools if possible.
+
+## Periodic Review and Update
+
+- **Regular Updates**: Keep both research and code repositories updated.
+- **Reflect Back**: Review the research for new ideas to integrate into the codebase.
+
+**Note**: Clear separation between research and coding phases ensures focus and clarity in the project development process.
+
+
+
+
 ## Spelmotorspecifika Skriptexempel
 
 I denna README presenteras exempel på hur man skapar en enkel rotation och förstör ett objekt eller en nod baserat på dess avstånd från startpositionen. Exemplen är skrivna för tre olika spelmotorer: Unity (C#), Godot (GDScript) och Unreal Engine (C++).
