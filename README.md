@@ -1,3 +1,16 @@
+1. **Aktivera Skriptfönstret**: 
+   Öppna ett skriptfönster i Blender genom att justera layouten.
+
+2. **Skapa Nytt Skript**: 
+   I skriptfönstret, välj att skapa ett nytt dokument.
+
+3. **Spara Filen**: 
+   Spara ditt skript med ett lämpligt namn.
+
+4. **Importera Blender Python API**:
+   ```python
+   import bpy
+
 
 # Organizing Research Inspiration and Final Codebase
 
