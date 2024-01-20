@@ -11,6 +11,13 @@
    ```python
    import bpy
 
+- Öppna **Blender** och skapa en kub genom att gå till menyn **Add > Mesh > Cube**.
+- Byt layout till **Scripting** för att öppna skriptfönstret.
+- I **Python-konsolen** nedtill, hitta raden som börjar med `bpy.ops.mesh.primitive_cube_add(...)`.
+- Högerklicka på koden och välj **Copy to Clipboard**.
+- Gå till texteditorn ovanför och klicka på **New** för att skapa ett nytt skript.
+- Klistra in den kopierade koden i det nya skriptet.
+- Nu kan du köra skriptet för att skapa en kub i scenen när du vill.
 
 # Organizing Research Inspiration and Final Codebase
 
