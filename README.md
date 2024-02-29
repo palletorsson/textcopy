@@ -1,3 +1,62 @@
+# Project Documentation
+
+## GDScript Notes
+
+### Random Number Generator (RNG)
+- Each `MeshInstance3D` has its own RNG for generating random positions.
+- The RNG is seeded using a combination of system time and a random integer to ensure uniqueness (`generate_seed_for_entity` function).
+- Use `OS.get_unix_time()` instead of `Time.get_unix_time_from_system()` if you're using Godot 3.2 or later.
+
+### Movement Logic
+- The agent moves in a random direction every `time_to_next_step` seconds.
+- Movement is restricted within an area defined by `area_size`.
+
+### Shader Parameters
+- The script updates the shader parameters `agent_position1` through `agent_position8` to reflect the agent's last eight positions.
+- Positions are normalized to the range [0, 1] before being passed to the shader (`get_agent_position` function).
+
+### Shader Material
+- The script directly accesses the `ShaderMaterial` from the node it is attached to (`monitor = self as MeshInstance3D`).
+- The shader parameters are set using the `set_shader_parameter` method.
+
+### Making Materials Unique
+- To ensure that each instance has its own random sequence, each `MeshInstance3D` node must have a unique material.
+- Use the "Make Unique" option in the editor to duplicate the material for the node, or use `material_override.duplicate()` in the script.
+
+## Shader Notes
+
+### Uniform Variables
+- Eight uniform variables (`agent_position1` through `agent_position8`) represent the last eight positions of the agent.
+
+### Fragment Shader Logic
+- A color effect is applied based on the distance from each agent position to the fragment's UV coordinates.
+- The `smoothstep` function is used to create a soft threshold for the color blending effect.
+- The `mix` function combines the effect color with the base color based on the calculated intensity.
+
+### Color and Radius
+- The base color is set to a magenta color, and a green color is added around each agent position.
+- The radius for the effect is controlled by the `radius` variable.
+
+## Best Practices and Tips
+
+### Unique Instances
+When duplicating nodes, make sure to make materials and scripts unique if you want different behavior for each instance.
+
+### Shader Parameters
+Be consistent with naming conventions when setting shader parameters from GDScript.
+
+### Debugging
+Use print statements or the Godot debugger to verify that variables and shader parameters are being set as expected.
+
+### Seeding RNGs
+Consider the implications of RNG seeding, especially in multiplayer games, to ensure that sequences are both random and synchronized across different clients when necessary.
+
+### Version Control
+Keep in mind the version of Godot you're using, as certain functions and methods might differ between versions.
+
+---
+
+Maintain this documentation alongside your project files or in your version control system to aid in future development and debugging.
 1. **Aktivera Skriptfönstret**: 
    Öppna ett skriptfönster i Blender genom att justera layouten.
 
