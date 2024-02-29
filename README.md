@@ -1,3 +1,63 @@
+# First-Person Controller Scene Setup in Godot
+
+This guide documents the process of setting up a first-person controller scene with new features introduced in Godot 3.x, following the Lucky YouTube tutorial. The setup includes global illumination, fog, depth of field blurring, and a first-person character controller.
+
+## Floor and Archway Setup
+
+- Create a new 3D scene named "World".
+- Add a `MeshInstance3D` with a cube mesh as the floor.
+- Scale the cube to 1m x 1m x 1m.
+- Apply a grid texture to the floor and enable triplanar mapping for uniform texture display.
+
+## Archway with CSG
+
+- Use CSGBox nodes to create an archway structure.
+- Combine CSGBox nodes using CSG operations like subtraction to form the arch shape.
+- Apply materials and adjust parameters to fix visual glitches and improve resolution.
+
+## Environment Settings
+
+- Create a new environment resource with a white background color.
+- Set up ambient light, tone mapping (filmic), and Screen-Space Ambient Occlusion (SSAO).
+- Enable SDFGI for global illumination to simulate light bounces and reflections.
+- Configure volumetric fog parameters for atmospheric effects.
+
+## Player Setup
+
+- Add a `CharacterBody3D` node as the player.
+- Attach a collision shape to the player for physical interactions.
+- Attach a camera to the player node to serve as the player's viewpoint.
+- Implement movement logic using input mapping for forwards, backward, left, and right.
+- Add mouse look functionality with sensitivity settings and clamping for vertical rotation limits.
+
+## Scripting
+
+- Utilize the provided FPS controller template script in Godot, adapting it for changes in 3.x stable.
+- Capture the mouse cursor within the game window for immersive first-person control.
+- Handle input events for character movement, including walking, sprinting, crouching, and jumping.
+- Apply gravity consistently with the project settings to match other physics objects.
+
+## Materials and Textures
+
+- Import grid textures and apply them to mesh instances.
+- Create a material resource for the archway and configure its properties.
+- Utilize the triplanar mapping for a consistent appearance on complex geometries.
+
+## Debugging Tips
+
+- For visual glitches in CSG operations, adjust the positions and dimensions of the CSG nodes.
+- If the first-person controller does not respond as expected, check input mappings and script logic.
+
+## Additional Resources
+
+- Free grid textures by Kenney: [Kenney Assets](https://www.kenney.nl/assets)
+- FPS controller script by Garbaj: [YouTube Tutorial](https://www.youtube.com/channel/UCb7A3-CWHgy5EejbfA9wbmw)
+
+Remember to save your scene frequently and test the player's movement and environmental effects to ensure everything is working as intended.
+
+---
+
+Tutorial Reference: [Lucky YouTube Channel](https://www.youtube.com/channel/UCb7A3-CWHgy5EejbfA9wbmw)
 
 # First-Person Controller Script Documentation
 
