@@ -1,3 +1,53 @@
+
+# First-Person Controller Script Documentation
+
+This script extends `CharacterBody3D` to implement a first-person character controller in Godot.
+
+## Properties
+
+- `current_speed`: The current movement speed of the character.
+- `walking_speed`: The walking speed of the character.
+- `sprinting_speed`: The sprinting speed of the character.
+- `crouching_speed`: The speed of the character while crouching.
+- `crouching_depth`: The amount by which the character "sinks" while crouching.
+- `jump_velocity`: The initial velocity of the character when jumping.
+- `mouse_sensitivity`: The sensitivity of the mouse movement.
+- `lerp_speed`: The speed at which the character's head position interpolates while crouching/standing.
+
+## Nodes
+
+- `head`: A reference to the `Head_Node3D` node, which represents the character's head and camera.
+
+## Gravity
+
+- `gravity`: The gravity value is fetched from the project settings to ensure consistency with `RigidBody` nodes.
+
+## Methods
+
+### `_ready()`
+Captures the mouse cursor when the game starts.
+
+### `_input(event)`
+Handles mouse movement for looking around. It rotates the character and the head node based on the mouse's relative movement.
+
+### `_physics_process(delta)`
+Handles the character's movement logic, including walking, sprinting, crouching, and jumping. It uses input actions to determine the desired movement and applies gravity when the character is not on the floor.
+
+## Input Handling
+
+- **Sprinting**: Holding the sprint key increases the character's speed.
+- **Crouching**: Holding the crouch key decreases the character's height and speed.
+- **Jumping**: Pressing the jump key applies an upward velocity if the character is on the floor.
+
+## Movement
+
+The script computes the direction of movement based on player input and uses linear interpolation (lerp) to smoothly transition movement changes. The character's velocity is updated accordingly, and the `move_and_slide` method is used for the actual movement and collision handling.
+
+---
+
+This script is part of a tutorial series by Lucky on YouTube. For more details and to see the script in action, visit the [Lucky YouTube Channel](#).
+
+
 # Project Documentation
 
 ## GDScript Notes
