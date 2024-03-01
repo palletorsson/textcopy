@@ -1,3 +1,80 @@
+
+# Random Tiled Wall Generator in Godot
+
+This Godot script generates a wall consisting of tiles (cubes) that randomly swap colors between black and white over time. It's designed for 3D projects in Godot and provides a dynamic visual effect suitable for backgrounds, puzzles, or any game element that benefits from a changing pattern.
+
+## Features
+
+- Generates a grid of 3D tiles with customizable width and height.
+- Alternates tile colors between black and white randomly at the start.
+- Periodically swaps the color of random tiles to create a dynamic effect.
+- Configurable tile size and swap frequency.
+
+## Setup
+
+### Prerequisites
+
+- Godot 3.x or newer.
+- Two `PackedScene` assets for the black and white cube prefabs.
+
+### Steps
+
+1. **Create Cube Prefabs**:
+    - Create 3D cube scenes for the black and white tiles. Ensure each cube has a `MeshInstance` with a cube mesh and appropriate materials.
+    - Save these scenes as `PackedScene` resources.
+
+2. **Prepare the Script**:
+    - Create a new GDScript (`random_tiled_wall_generator.gd`) and paste the provided script code into this file.
+
+3. **Scene Setup**:
+    - In your 3D scene, add a new `MeshInstance3D` node where you want the wall to appear.
+    - Attach the `random_tiled_wall_generator.gd` script to this `MeshInstance3D` node.
+
+4. **Assign Prefabs**:
+    - Select the `MeshInstance3D` node with the script attached.
+    - In the Inspector, assign the black and white cube `PackedScene` resources to the `Black Cube Prefab` and `White Cube Prefab` fields, respectively.
+
+5. **Configure Parameters** (Optional):
+    - Adjust the `Wall Width`, `Wall Height`, and `Tile Size` parameters in the Inspector to fit your needs.
+
+6. **Run the Scene**:
+    - Play the scene to see the generated wall with the dynamic tile swapping effect in action.
+
+## Script Overview
+
+```gdscript
+extends MeshInstance3D
+
+# Assign these in the Inspector
+@export var black_cube_prefab : PackedScene
+@export var white_cube_prefab : PackedScene
+@export var wall_width: int = 48
+@export var wall_height: int = 16
+@export var tile_size: float = 0.1
+
+var tiles = [] # To keep track of all tiles
+var swap_count: int = 0 # Counter for swaps
+var swapping_to_black: bool = true # Indicates whether to swap to black or white next
+var rng = RandomNumberGenerator.new()
+
+func _ready():
+    randomize()
+    generate_wall()
+    swap_random_tile()
+
+func generate_wall():
+    # Initializes and generates the wall of tiles
+
+func swap_random_tile():
+    # Periodically swaps the color of a random tile
+```
+
+## Customization
+
+- **Tile Prefabs**: Change the cube prefabs to any 3D model to create different effects.
+- **Swap Logic**: Modify `swap_random_tile` to implement different swapping patterns or conditions.
+- **Performance**: For large walls or performance-sensitive applications, consider optimizing tile management and updates.
+
 # First-Person Controller Scene Setup in Godot
 
 This guide documents the process of setting up a first-person controller scene with new features introduced in Godot 3.x, following the Lucky YouTube tutorial. The setup includes global illumination, fog, depth of field blurring, and a first-person character controller.
