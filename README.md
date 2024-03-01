@@ -1,4 +1,89 @@
 
+# Game Management System
+
+This document outlines the setup and interaction between the GameManager, HUD, and Player components in a Godot project.
+
+## Overview
+
+- **GameManager (Singleton):** Manages global game state variables (health, XP) and notifies the game of changes via signals.
+- **HUD:** Displays the game state (health, XP) to the player, updating in response to GameManager signals.
+- **Player:** The player character, capable of affecting game state variables, which are managed by the GameManager.
+
+## Setup
+
+### 1. GameManager Setup
+
+- **Script:** Create `GameManager.gd` to hold game state variables and functions for updating these variables. Define signals for variable changes.
+
+```gdscript
+extends Node
+
+signal health_changed(new_health)
+signal xp_changed(new_xp)
+
+var health: int = 100
+var xp: int = 0
+
+func update_health(value: int):
+    health += value
+    emit_signal("health_changed", health)
+
+func update_xp(value: int):
+    xp += value
+    emit_signal("xp_changed", xp)
+```
+
+- **Singleton Registration:** Register `GameManager.gd` as an AutoLoad (Project > Project Settings > AutoLoad).
+
+### 2. HUD Setup
+
+- **Scene Structure:** In your main scene, add a `CanvasLayer` node with a `Control` node child. Inside `Control`, add UI elements like `ProgressBar` for health and `Label` for XP.
+- **Script:** Attach a script to the `Control` node. Connect to `GameManager`'s signals to update UI elements when game state changes.
+
+```gdscript
+extends Control
+
+onready var health_bar = $HealthBar
+onready var xp_label = $XPLabel
+
+func _ready():
+    GameManager.connect("health_changed", self, "_on_health_changed")
+    GameManager.connect("xp_changed", self, "_on_xp_changed")
+
+func _on_health_changed(new_health):
+    health_bar.value = new_health
+
+func _on_xp_changed(new_xp):
+    xp_label.text = "XP: %d" % new_xp
+```
+
+### 3. Player Setup
+
+- **Movement and XP Gain:** Implement movement logic in your player script. Increase XP by calling `GameManager.update_xp()` based on movement.
+
+```gdscript
+extends KinematicBody3D
+
+var last_position = Vector3()
+
+func _ready():
+    last_position = global_transform.origin
+
+func _physics_process(delta):
+    var moved_distance = global_transform.origin.distance_to(last_position)
+    if moved_distance > 1:
+        GameManager.update_xp(1)
+        last_position = global_transform.origin
+```
+
+## Explanation
+
+- **GameManager:** Central hub for game states, emitting signals on changes.
+- **HUD:** Updates UI elements in response to GameManager signals.
+- **Player:** Influences game states, with changes managed by the GameManager.
+
+This setup promotes a modular and maintainable architecture.
+
 # Gradient Wall Generator in Godot
 
 This Godot script generates a wall consisting of tiles that are distributed according to a Gaussian (normal) distribution across the width of the wall. The tiles transition from black to white, creating a gradient effect. It's designed for 3D projects in Godot and is ideal for backgrounds, decorative elements, or any game component that benefits from a gradient pattern.
