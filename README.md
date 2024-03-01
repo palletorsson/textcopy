@@ -1,4 +1,40 @@
 
+# Pick-Up Script Documentation
+
+This document explains the functionality and setup of the `PickUp` script attached to an `Area3D` node in Godot, designed for pick-up items in a 3D game environment.
+
+## Script Overview
+
+- **Node Type:** `Area3D`
+- **Purpose:** To manage interactions when the player character enters the area of the pick-up item, such as playing a sound and removing the item from the scene.
+
+## Properties
+
+- `@export var pick_up_sound_path : NodePath`: Exports a variable to the Inspector where you can assign the path to an `AudioStreamPlayer3D` node. This node will play the pick-up sound.
+
+## Functions
+
+### `_ready()`
+
+- Connects the `body_entered` signal of the `Area3D` node to the `_on_body_entered` function within the script.
+- Checks if the `AudioStreamPlayer3D` node exists at the specified `pick_up_sound_path`. If found, it assigns this node to the `pick_up_sound` variable and plays the sound as a test. If not found, it prints an error message.
+
+### `_on_body_entered(body)`
+
+- Triggered when a body enters the `Area3D`'s space.
+- Checks if the body is the player (by comparing the `name` property) and if the `pick_up_sound` is not null.
+- If conditions are met, it plays the pick-up sound, scales the item to zero (making it invisible), and starts a timer set to the length of the audio stream. When the timer times out, it calls `queue_free()` to remove the pick-up item from the scene.
+
+## Setup Instructions
+
+1. Attach this script to an `Area3D` node representing the pick-up item in your scene.
+2. In the Inspector, set the `pick_up_sound_path` to the path of an `AudioStreamPlayer3D` node that is either a child of the pick-up item or located elsewhere in the scene.
+3. Ensure your player node is named "Player" or adjust the script to match your player node's name.
+4. Optionally, adjust the script to scale the item differently or use a different method for hiding the item upon pick-up.
+
+This setup allows for an audible indication when the player picks up an item and removes the item from the scene.
+
+
 # Game Management System
 
 This document outlines the setup and interaction between the GameManager, HUD, and Player components in a Godot project.
