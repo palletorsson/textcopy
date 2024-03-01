@@ -1,4 +1,72 @@
 
+# Gradient Wall Generator in Godot
+
+This Godot script generates a wall consisting of tiles that are distributed according to a Gaussian (normal) distribution across the width of the wall. The tiles transition from black to white, creating a gradient effect. It's designed for 3D projects in Godot and is ideal for backgrounds, decorative elements, or any game component that benefits from a gradient pattern.
+
+## Features
+
+- Generates a grid of 3D tiles with customizable width and height.
+- Distributes tile colors according to a Gaussian distribution, creating a gradient effect.
+- Configurable tile size, wall dimensions, and distribution parameters.
+
+## Setup
+
+### Prerequisites
+
+- Godot 3.x or newer.
+- Two `PackedScene` assets for the black and white cube prefabs.
+
+### Steps
+
+1. **Cube Prefabs**:
+    - Create 3D scenes for the black and white tiles with a `MeshInstance` containing a cube mesh and the respective materials.
+    - Save these scenes as `PackedScene` resources.
+
+2. **Script Preparation**:
+    - Create a new GDScript file (e.g., `gradient_wall_generator.gd`) and insert the provided script code.
+
+3. **Scene Configuration**:
+    - In your 3D scene, add a `MeshInstance3D` node at the desired location for the wall.
+    - Attach the `gradient_wall_generator.gd` script to this node.
+
+4. **Prefab Assignment**:
+    - With the `MeshInstance3D` node selected, assign the black and white cube `PackedScene` resources to the respective script variables in the Inspector.
+
+5. **Parameter Adjustment** (Optional):
+    - Modify the `Wall Width`, `Wall Height`, and `Tile Size` script variables in the Inspector to customize the wall's appearance.
+
+6. **Scene Execution**:
+    - Run the scene to view the dynamically generated gradient wall.
+
+## Script Overview
+
+```gdscript
+extends MeshInstance3D
+
+# Inspector-assigned variables
+@export var black_cube_prefab : PackedScene
+@export var white_cube_prefab : PackedScene
+@export var wall_width: int = 48
+@export var wall_height: int = 32
+@export var tile_size: float = 1.0
+
+func _ready():
+    generate_wall()
+
+func generate_wall():
+    # Initializes and generates the gradient wall
+
+func gaussian(value: float, mean: float, stdDev: float) -> float:
+    # Gaussian distribution function
+```
+
+## Customization
+
+- **Tile Prefabs**: Use different 3D models as prefabs to vary the wall's appearance.
+- **Distribution Parameters**: Adjust the Gaussian function's `mean` and `stdDev` parameters to change the gradient's spread and center.
+- **Dynamic Updates**: Extend the script to allow real-time adjustments to the gradient, potentially responding to game events or player actions.
+
+
 # Random Tiled Wall Generator in Godot
 
 This Godot script generates a wall consisting of tiles (cubes) that randomly swap colors between black and white over time. It's designed for 3D projects in Godot and provides a dynamic visual effect suitable for backgrounds, puzzles, or any game element that benefits from a changing pattern.
