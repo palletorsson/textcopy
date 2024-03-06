@@ -76,15 +76,7 @@ void fragment() {
 }
 ```
 
-## Conclusion
 
-Shaders might seem daunting at first, but with practice, you'll find they offer unparalleled control over your game's visuals. Start with simple modifications and gradually experiment with more complex effects.
-
-## Support and Feedback
-
-If you found this guide helpful, consider subscribing to the channel for more tutorials. Your feedback is invaluable, so please share your thoughts and questions in the comments. For those interested, my game "Gamerama" is currently on sale, offering a practical application of these shader concepts.
-
-Happy shading, and take care!
 
 # Godot Engine FPS Project
 
