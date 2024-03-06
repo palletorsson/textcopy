@@ -1,3 +1,86 @@
+# Getting Started with XR Development in Godot
+
+This guide walks you through the process of setting up a basic XR project in Godot, starting from downloading the Godot Engine, setting up your project, and preparing it for XR development.
+
+## Prerequisites
+
+- Basic knowledge of Godot Engine and XR development concepts.
+- A compatible XR device for testing (e.g., Oculus Quest, Pico).
+
+## 1. Download Godot
+
+- Visit the [Godot Engine official website](https://godotengine.org/download) and download the latest stable version of Godot suitable for your operating system. If you're interested in using Godot 4.2 features, check the blog page for the latest release candidates.
+
+## 2. Install Godot
+
+- Open the downloaded file to install Godot on your system. Follow the on-screen instructions to complete the installation.
+
+## 3. Create a New Project
+
+- Launch Godot and click on **New Project**.
+- Assign a name to your project and choose or create a new directory for it.
+- Click **Create & Edit** to initialize your new project.
+
+## 4. Select Compatibility Renderer
+
+- For XR projects, especially targeting standalone devices, it's recommended to use the **Compatibility Renderer**.
+- This option is available during the project setup phase.
+
+## 5. Configure Project Settings
+
+- Navigate to **Project > Project Settings**.
+- In the XR section, select **Open XR** and enable it.
+- Then, go to the Shader section and enable the necessary shaders for your project.
+
+## 6. Set Up Your Scene
+
+- Create a new 3D scene and rename the root node (e.g., `Main`).
+- Add XR-specific nodes like `XR Origin 3D` and `XR Camera 3D`. Position them as needed for visual reference.
+- Add `XR Controller 3D` nodes for both hands, assign trackers, and optionally add a MeshInstance 3D with a simple geometry (e.g., a box) to represent the hands.
+
+## 7. Add Environment and Lighting
+
+- Since the editor's environment and lighting are only for visual reference, manually add your desired environment and lighting to the scene.
+- Utilize the editor's shortcuts to add default environmental elements and adjust them as necessary.
+
+## 8. Adjust for Godot 4.2 (If Using)
+
+- If you're using Godot 4.2, make sure to account for new features and necessary adjustments related to Open XR and rendering options.
+
+## 9. Write and Add Necessary Code
+
+- Refer to the [Godot documentation](https://docs.godotengine.org/en/stable/index.html) for the required code snippets to make your XR setup functional.
+- Attach a new script to your main node and paste the appropriate code from the documentation.
+
+## 10. Testing Your Project
+
+- Test your project by pressing the play button. Ensure it behaves as expected in PCVR mode.
+
+## 11. Exporting for Standalone Headsets
+
+- For exporting to standalone headsets like the Quest or Pico, additional setup steps are required, including configuring Android build tools and creating a debug keystore.
+- Follow the detailed instructions in the Godot documentation for exporting to Android.
+
+## 12. Final Testing on Device
+
+- Use the remote debug option to run your project on your XR device and conduct final testing.
+
+## Resources
+
+- [Godot Engine Documentation](https://docs.godotengine.org/en/stable/index.html)
+- [XR Development in Godot](https://docs.godotengine.org/en/stable/tutorials/vr/index.html)
+
+## Support
+
+If you encounter any issues or have questions, consider joining the [Godot Community](https://godotengine.org/community) or visiting the [official Godot Discord channel](https://godotengine.org/community).
+
+## Contributing
+
+Feel free to fork this project and submit pull requests with improvements or updates to the guide.
+
+## License
+
+This guide is provided under the MIT License. See the LICENSE file for more information.
 
 # Pick-Up Script Documentation
 
