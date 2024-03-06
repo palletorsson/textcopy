@@ -1,3 +1,57 @@
+# Godot Engine FPS Project
+
+Welcome to the Godot Engine First-Person Shooter (FPS) Project. This project is designed to guide you through building a modern FPS from scratch using Godot Engine. Each episode of this series will cover different aspects of FPS development, from basic movement and collision handling to advanced gameplay features found in games like Halo or Call of Duty.
+
+## Getting Started
+
+### Prerequisites
+- Godot Engine 4.0 (alpha, beta, or stable)
+- Blender 3.0 or above for custom meshes (optional)
+
+### Test Level Setup
+1. Create a scene with a solid floor mesh and several collidable object meshes.
+2. Add a `WorldEnvironment` node and configure the environment and sky using an HDRi sky image (included in the repo or use your own).
+3. Ensure there's at least one mesh for collision testing.
+
+### Player Controller
+1. Create a new scene with `CharacterBody3D` as the parent node.
+2. Add a `CollisionShape3D` node with a capsule shape (height: 2 meters, radius: 0.5 meters).
+3. Add a `MeshInstance3D` node as a placeholder for the player model.
+4. Save the scene and add it to the test level.
+
+### Camera Setup
+1. Add a `Camera3D` node to the player controller.
+2. Adjust the camera's height to match eye level (approximately 1.5 meters).
+3. Run the scene to ensure the camera displays the environment correctly.
+
+### Movement Script
+1. Create a new GDScript for the player controller.
+2. Implement basic keyboard movement using WASD keys and spacebar for jumping.
+3. Add input actions for movement in `Project > Project Settings > Input Map`.
+4. Update the script to reference the newly created input actions.
+
+### Mouse Look
+1. Set the mouse mode to `MOUSE_MODE_CAPTURED` to hide and center the cursor.
+2. Capture mouse movement and apply it to the camera's rotation.
+3. Adjust mouse sensitivity for comfortable control.
+4. Split mouse input into horizontal (player rotation) and vertical (camera rotation) components.
+
+### Quality of Life Additions
+1. Add an exit function to close the game window using the Escape key.
+2. Include a `ReflectionProbe` node for enhanced material reflections.
+
+### Final Touches
+1. Ensure static meshes in the scene have `StaticBody3D` and `CollisionShape3D` nodes for proper collision.
+2. Tweak player speed, jump velocity, and other parameters as needed.
+
+## Contributions and Support
+
+This project is open-source and aims to be a comprehensive resource for Godot FPS development. Contributions are welcome, and if you're interested in supporting this project further, consider becoming a GitHub sponsor. Sponsors receive access to source projects, early video tutorials, and can vote on future FPS mechanics to cover.
+
+Thank you for your interest in this project. Stay tuned for more updates, and keep creating!
+
+
+
 # Blender to Godot Integration Guide
 
 This guide explains how to seamlessly integrate Blender models into your Godot 4.0 projects. It ensures compatibility with Blender version 3.0 and above.
