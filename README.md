@@ -1,3 +1,91 @@
+# Intro to Shaders in Godot
+
+This guide is designed to demystify shaders in Godot Engine and provide you with a basic understanding of how to create and apply shaders to achieve various visual effects.
+
+## Understanding Shaders
+
+Shaders are powerful tools that allow you to programmatically alter the appearance of your materials. Unlike standard materials, which you modify using UI sliders and buttons, shaders require you to write code. However, this gives you much more flexibility and control over the final appearance.
+
+### Key Concepts
+
+- **Shader Types**: In Godot, you mainly work with two types of shaders:
+  - `Spatial`: Used for 3D shaders.
+  - `CanvasItem`: Used for 2D shaders (not covered in this guide).
+  
+- **Main Functions**:
+  - `vertex()`: Handles the vertices of your mesh.
+  - `fragment()`: Deals with the pixels on your material.
+
+### Creating a Shader Material
+
+1. Start with the shader declaration: `shader_type spatial;`.
+2. Write your shader code within the `vertex()` or `fragment()` functions, depending on whether you want to manipulate vertices or pixels.
+
+### Example: Changing Color
+
+To change the color of a mesh, you would use the `fragment()` function:
+
+```glsl
+shader_type spatial;
+
+void fragment() {
+    ALBEDO = vec3(0.0, 0.0, 1.0); // This sets the color to blue
+}
+```
+
+Remember to end each line with a semicolon, as the shader language is statically typed.
+
+### Modifying Properties
+
+You can also modify other properties like `ROUGHNESS` and add effects such as rim lighting within your shader.
+
+### Using UVs for Conditional Coloring
+
+You can divide your mesh's appearance using UV mapping and conditional statements:
+
+```glsl
+void fragment() {
+    if (UV.x > 0.5) {
+        ALBEDO = vec3(0.0, 0.0, 1.0); // Blue for one half
+    } else {
+        ALBEDO = vec3(1.0, 0.5, 0.0); // Orange for the other half
+    }
+}
+```
+
+### Manipulating Vertices
+
+The `vertex()` function allows you to move or transform the mesh's vertices. For example, to move the mesh along the Y-axis based on a sine wave:
+
+```glsl
+void vertex() {
+    VERTEX.y += sin(TIME) * 0.5;
+}
+```
+
+## Advanced Effects
+
+You can create more complex effects using math functions and time-based alterations. For example, to create a color-shifting effect:
+
+```glsl
+void fragment() {
+    float r = sin(TIME + VERTEX.x) * 0.5 + 0.5;
+    float g = sin(TIME + VERTEX.y) * 0.5 + 0.5;
+    float b = sin(TIME + VERTEX.z) * 0.5 + 0.5;
+    ALBEDO = vec3(r, g, b);
+}
+```
+
+## Conclusion
+
+Shaders might seem daunting at first, but with practice, you'll find they offer unparalleled control over your game's visuals. Start with simple modifications and gradually experiment with more complex effects.
+
+## Support and Feedback
+
+If you found this guide helpful, consider subscribing to the channel for more tutorials. Your feedback is invaluable, so please share your thoughts and questions in the comments. For those interested, my game "Gamerama" is currently on sale, offering a practical application of these shader concepts.
+
+Happy shading, and take care!
+
 # Godot Engine FPS Project
 
 Welcome to the Godot Engine First-Person Shooter (FPS) Project. This project is designed to guide you through building a modern FPS from scratch using Godot Engine. Each episode of this series will cover different aspects of FPS development, from basic movement and collision handling to advanced gameplay features found in games like Halo or Call of Duty.
