@@ -1,3 +1,56 @@
+
+# Object Pick Up and Rotation Using Raycasting in Godot
+
+## Overview
+This tutorial demonstrates how to enable a first-person character to pick up, hold, rotate, and release objects using raycasting in Godot. It's perfect for games requiring interaction with objects, such as puzzle games or adventure games.
+
+## Prerequisites
+- Basic understanding of Godot Engine and GDScript.
+- A Godot project with a 3D scene setup.
+- A Camera3D node set up for first-person view.
+
+## Steps
+
+### 1. Prepare the Scene:
+   - Ensure your scene has a `Camera3D` node. This script should be attached to that node.
+   - Add a `RayCast3D` node as a child of the camera. Name it `RayCast3D`.
+   - Create an empty `Spatial` node as a child of the camera for holding objects in front of the player. Name it `HoldPosition`.
+   - Ensure your interactable objects are in a group named "Pickable". You can add objects to a group via the Node tab in the Godot editor.
+
+### 2. Setup the Script:
+   - Attach the provided script to your `Camera3D` node.
+   - Ensure the `@onready var` paths correctly point to your `RayCast3D` and `HoldPosition` nodes.
+   - If you have a specific node where you want to release objects (e.g., `World_Node3D`), adjust the path in the `release_object` function.
+
+### 3. Raycasting Configuration:
+   - In the Godot editor, select the `RayCast3D` node and configure its properties. Ensure it's enabled and set the `Cast To` property to define the ray direction and length (e.g., `Vector3(0, 0, -1)` for casting forward).
+
+### 4. Collision Layers:
+   - Configure collision layers and masks to ensure the raycast only interacts with objects you intend to pick up. This is done in the `perform_raycast` function and the Collision tab for your objects.
+
+### 5. Input Map:
+   - Go to "Project" > "Project Settings" > "Input Map" and add an action named "pick_up" with the desired key or button.
+
+### 6. Testing:
+   - Run the scene and use the assigned input to pick up, hold, and release objects. Objects should rotate while held.
+
+### 7. Debugging:
+   - If the held object does not appear in front of the camera, adjust the `HoldPosition` node's transform in the editor.
+   - Use the `debug_line` node to draw a line from the camera to the raycast's target point for visual debugging.
+
+## Script Explanation
+- The script uses a raycast to detect interactable objects and allows the player to pick up and hold an object in front of the camera.
+- The held object is rotated continuously around its Y-axis while being held.
+- Upon release, the object's collision is temporarily disabled to prevent immediate collision with the player, then re-enabled shortly after.
+- Objects are returned to the world with a slight offset in front of the player.
+
+## Tips
+- Experiment with the `ray_length`, `rotation_speed`, and release position offset to achieve desired gameplay effects.
+- To enhance visual feedback, consider adding highlight effects or sounds upon picking up or releasing objects.
+
+This documentation outlines the setup process and functionality of the script. Tailor the instructions and script paths to fit your specific project structure and requirements.
+
+
 # Intro to Shaders in Godot
 
 This guide is designed to demystify shaders in Godot Engine and provide you with a basic understanding of how to create and apply shaders to achieve various visual effects.
