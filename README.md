@@ -1,4 +1,89 @@
 
+# Game Management System Update Guide
+
+This guide provides a comprehensive overview of updating the Game Management System with a new theming style, focusing on the interaction between `GameManager.gd`, `HUD.gd`, and `Player.gd` scripts in a Godot 4 project.
+
+## GameManager.gd
+
+This script manages the game's state, such as player health and experience points (XP), and emits signals when these values change.
+
+```gdscript
+extends Node
+
+signal health_changed(new_health)
+signal xp_changed(new_xp)
+
+var health: int = 100
+var xp: int = 0
+
+func update_health(value: int):
+    health = value
+    emit_signal("health_changed", health)
+
+func update_xp(value: int):
+    xp += value
+    emit_signal("xp_changed", xp)
+```
+
+## HUD.gd
+
+The HUD script listens for signals from the `GameManager` and updates UI elements like health bars and XP labels accordingly.
+
+```gdscript
+extends Control
+
+@onready var health_bar = $HealthBar
+@onready var xp_label = $XPLabel
+
+func _ready():
+    var game_manager = get_node("/root/GameManager")
+    game_manager.connect("health_changed", self, "_on_health_changed")
+    game_manager.connect("xp_changed", self, "_on_xp_changed")
+
+    _on_health_changed(game_manager.health)
+    _on_xp_changed(game_manager.xp)
+
+func _on_health_changed(new_health):
+    health_bar.value = new_health
+
+func _on_xp_changed(new_xp):
+    xp_label.text = "XP: %d" % new_xp
+```
+
+## Player.gd
+
+The Player script handles movement and actions. It communicates with `GameManager` to update health and XP based on player actions.
+
+```gdscript
+extends CharacterBody3D
+
+var current_speed = 5.0
+# Other variables and constants...
+
+func _ready():
+    # Player initialization...
+
+func _physics_process(delta):
+    # Handle player movement and actions...
+
+    # Update health and XP based on conditions
+    if some_condition:
+        var game_manager = get_node("/root/GameManager")
+        game_manager.update_xp(xp_amount)
+        game_manager.update_health(new_health_value)
+```
+
+## Theme Integration
+
+Ensure the theme is applied consistently across all UI elements in the `HUD.gd` script. Apply the theme at a high level, such as in `GameManager` or the root UI node, for consistent UI theming.
+
+## Summary
+
+- `GameManager.gd` handles the game state and emits signals for health and XP changes.
+- `HUD.gd` updates UI elements in response to these signals.
+- `Player.gd` controls movement and actions, updating the game state through `GameManager`.
+- Apply the theme at a high level to ensure UI consistency.
+
 # Basic Guide to Theming in Godot 4
 
 ## Introduction
