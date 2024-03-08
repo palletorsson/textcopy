@@ -1,4 +1,39 @@
 
+# Basic Guide to Theming in Godot 4
+
+## Introduction
+Theming in Godot 4 allows you to create a consistent and visually appealing user interface (UI) for your game. This tutorial provides a basic guide on setting up UI theming in Godot 4.
+
+## Getting Started
+1. **Create a UI Scene**: Begin by creating a new user interface scene in your project. Start with a `Control` node at the root and rename it to `GameplayUI`.
+2. **Save the UI Scene**: Save your `GameplayUI` as a scene (`.tscn`) inside a folder named `UI` for better organization.
+3. **Add Visual Elements**: Add a `Panel` node to your `GameplayUI`. Panels serve as a base for other UI elements like labels and buttons. Adjust the size of the panel as needed.
+
+## Theming the UI
+1. **Create a Theme**: Select the `Panel` node, go to the "Control" section in the Inspector, and create a new theme (`New Theme`).
+2. **Save the Theme**: Save the theme as a resource (`.tres`) in the `UI` folder. This allows the theme to be reused across different parts of your game.
+3. **Customize the Theme**: Double-click on the theme resource to open the theme editor. Here you can customize various components like buttons, labels, panels, and more.
+
+### Customizing a Panel
+1. **Add Panel Type**: In the theme editor, add the `Panel` type to customize.
+2. **Override Default Style**: Override the default style box (`StyleBoxFlat`) for the panel. This allows you to change properties like the background color.
+3. **Change Background Color**: Click on the overridden `StyleBoxFlat` to open its properties. Change the `Background Color` to your desired color.
+
+### Changing Default Font and Size
+1. **Access Theme Settings**: Select the `GameplayUI` node and find the theme settings in the Inspector.
+2. **Set Default Font**: Drag and drop a font file (`.ttf` or `.otf`) into the `Default Font` slot to change the font used by UI elements.
+3. **Adjust Font Size**: Increase the `Default Font Size` to make the text larger and more visible in your game.
+
+### Using Multiple Themes
+1. **Create Child Themes**: You can create separate themes for different parts of your UI to have specific sections look different from the base theme.
+2. **Override Properties**: Child themes can override properties set in the base theme. Apply these child themes to specific nodes where you want the customizations to apply.
+
+### Theme Overrides for Specific Controls
+1. **Use Theme Overrides**: For controls that need unique settings, use theme overrides directly on the control node to customize properties like font, color, and more without affecting other controls.
+
+
+
+
 # Object Pick Up and Rotation Using Raycasting in Godot
 
 ## Overview
