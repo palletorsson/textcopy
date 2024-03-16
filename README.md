@@ -1,3 +1,22 @@
+## Förberedelse för Stol-Övningar
+
+Innan du börjar med stol-övningarna är det viktigt att förbereda dig och din omgivning för att maximera effekten av övningarna och minska risken för skador. Här är några steg för förberedelse:
+
+1. **Välj Rätt Stol**: Använd en fast och stabil stol utan armstöd. Stolen bör vara tillräckligt hög så att dina fötter kan placeras platt på golvet med knäna i en 90-graders vinkel.
+
+2. **Placering**: Se till att du har tillräckligt med utrymme runt stolen för att utföra rörelserna utan begränsningar. Området bör vara fritt från hinder.
+
+3. **Klädsel**: Bär bekväma kläder som tillåter rörelsefrihet samt skor med bra grepp om du väljer att ha på dig skor. Att vara barfota eller i strumpor kan också vara ett alternativ beroende på övningen.
+
+4. **Uppvärmning**: Innan du startar, ta några minuter för att värma upp din kropp med lätt rörelse som promenader på plats eller armcirkel för att förbereda dina muskler och leder för övningarna.
+
+5. **Andning**: Kom ihåg att andas jämnt under övningarna. Andas in genom näsan och ut genom munnen för att hålla en stabil syretillförsel till musklerna.
+
+6. **Lyssna på din Kropp**: Anpassa övningarna efter din egen förmåga och komfort. Om något gör ont, försök justera rörelsen eller ta en paus. Det är viktigt att undvika att överbelasta kroppen.
+
+Genom att följa dessa förberedande steg kan du skapa en säker och effektiv miljö för dina stol-övningar.
+
+
 ## Nackcirkel
 - Sitt rakt upp mot kanten av stolen. Utför långsamma cirkulära rörelser med nacken, först åt ena hållet några gånger, sedan åt andra hållet. Var medveten om din hållning och håll ryggraden rakt.
 
