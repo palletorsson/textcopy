@@ -1,3 +1,33 @@
+## Nackcirkel
+- Sitt rakt upp mot kanten av stolen. Utför långsamma cirkulära rörelser med nacken, först åt ena hållet några gånger, sedan åt andra hållet. Var medveten om din hållning och håll ryggraden rakt.
+
+## Axlarullningar
+- Fortsätt sitta upp rakt. Rulla axlarna bakåt långsamt, tre gånger. Undvik att puffa ut bröstet, håll ryggraden neutral.
+
+## Hand- och Fingerövningar
+1. **Fingerspridning**: Sprid ut dina fingrar så brett du kan och för dem sedan samman igen.
+2. **Handbord**: Pressa dina fingrar ihop, böj vid knogarna så att dina händer bildar en platt yta som en bordsskiva. Gör detta några gånger.
+3. **Handledsstretch**: Använd din andra hand för att försiktigt dra tillbaka fingrarna på en utsträckt hand för att sträcka ut underarmsmusklerna. Gör detta för båda händerna, med både handflatan uppåt och nedåt.
+
+## Wrist Circles
+- Rör dina handleder i cirkulära rörelser åt båda hållen för att öka cirkulationen och flexibiliteten.
+
+## Kombinerad Övre och Nedre Kroppsövning
+- **Armbågsdrag**: Sitt nära kanten av stolen med händerna framför dig. Dra tillbaka armbågarna samtidigt som du skjuter ett ben rakt ut. Alternativ benen med varje repetition.
+- **Hälar och Tår Lyft**: Höj upp på tårna och lyft sedan tårna medan du sitter. Kombinera detta med att sträcka armarna antingen rakt upp eller rakt fram.
+
+## Sida Böjning och Sträckning
+- Sitt med benen axelbrett isär och nå över kroppen åt ena sidan, håll i några sekunder, sedan åt andra sidan. Detta bidrar till sidoböjning och flexibilitet.
+
+## Enkelsidig Ben- och Armrörelse
+- Stå ut med ett ben åt sidan samtidigt som du sträcker motsatt arm åt samma håll. Alternativ sidor. För de med höftsmärta, glid foten in och ut istället.
+
+## Höft Aktivering
+- Sitt med fötterna axelbrett isär och placera händerna på utsidan av dina knän. Tryck inåt med händerna samtidigt som du motstår med knäna för att aktivera höftmusklerna utan att röra knäna.
+
+## Tåvippning och Marsch
+- Lyft tårna uppåt från golvet, vippa dem för att förbättra fotledens rörlighet. Kombinera sedan detta med en marschövning där du lyfter ett knä och sträcker motsatt arm uppåt eller rakt fram, beroende på din komfort och förmåga.
+
 # Simple Godot Game Tutorial: Light Balls
 
 This tutorial guides you through the creation of a simple Godot game where clicking on a floor spawns colored balls with light. It introduces key concepts like scene structure, scripting with GDScript, inheritance, and signals.
