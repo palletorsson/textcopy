@@ -1,3 +1,21 @@
+## Avslutning av Stol-Övningar
+
+När du har genomfört dina stol-övningar är det viktigt att avsluta sessionen på rätt sätt för att maximera fördelarna med övningarna och främja återhämtning. Här är några steg för en effektiv avslutning:
+
+1. **Nedvarvning**: Gradvis minska intensiteten av dina övningar mot slutet av din session. Detta hjälper din puls och andning att återgå till normala nivåer på ett säkert sätt.
+
+2. **Stretching**: Utför några lugna stretchingövningar för att öka din flexibilitet och minska muskelstelhet. Fokusera på att sträcka ut de stora muskelgrupperna som du har använt under övningarna, inklusive nacke, axlar, armar, rygg, och ben.
+
+3. **Andas Djupt**: Ta dig tid att andas djupt och medvetet i slutet av din session. Djupandning hjälper till att syresätta kroppen, främja avslappning och minska stressnivåerna.
+
+4. **Hydrering**: Drick vatten efter din övningsrutin för att återställa vätskebalansen. Det är viktigt att hålla sig hydrerad för att stödja kroppens återhämtningsprocess.
+
+5. **Reflektion**: Ta en stund att reflektera över din övningsrutin. Notera vad som kändes bra, vad som kan förbättras, och hur du känner dig efteråt. Detta kan hjälpa dig att anpassa och förbättra dina framtida övningspass.
+
+6. **Planera Nästa Pass**: Slutligen, tänk på när ditt nästa träningspass ska vara. Att hålla en regelbunden övningsrutin är nyckeln till långsiktiga hälsofördelar.
+
+Genom att inkludera dessa avslutande steg i din träningsrutin kan du hjälpa din kropp att återhämta sig effektivt och förbättra ditt allmänna välbef
+
 ## Förberedelse för Stol-Övningar
 
 Innan du börjar med stol-övningarna är det viktigt att förbereda dig och din omgivning för att maximera effekten av övningarna och minska risken för skador. Här är några steg för förberedelse:
