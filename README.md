@@ -1,3 +1,127 @@
+# Simple Godot Game Tutorial: Light Balls
+
+This tutorial guides you through the creation of a simple Godot game where clicking on a floor spawns colored balls with light. It introduces key concepts like scene structure, scripting with GDScript, inheritance, and signals.
+
+## Setting Up the Project
+
+### Scene Structure
+1. **Create a new Godot project.**
+2. **Set up the game scene:**
+    - Add a `Spatial` node as the root. This acts as the container for the 3D environment.
+    - Add a `StaticBody` as a child of the Spatial node for the floor.
+      - Add a `CollisionShape` and a `MeshInstance` (e.g., a plane) to the `StaticBody`.
+    - Add a `RigidBody` for the light-emitting ball.
+      - As children of the `RigidBody`, add a `CollisionShape`, a `MeshInstance` (e.g., a sphere), and an `OmniLight`.
+
+### Scripting Overview
+
+Scripts define node behavior. GDScript, Godot's scripting language, is Python-like.
+
+1. **Attaching Scripts:**
+    - Attach a script named `LevelManager.gd` to the Spatial node.
+    - Attach scripts to the `StaticBody` and `RigidBody`.
+
+2. **GDScript Basics:**
+    - Variables: `var name = value`
+    - Functions: `func name():`
+    - Control structures: `if`, `for`, `while`
+    - Access nodes: Use `$` (e.g., `$StaticBody`).
+
+## Implementing Game Logic
+
+1. **Detecting Mouse Clicks:**
+    - In the `StaticBody` script, use `_input(event)` to detect clicks. Check for `InputEventMouseButton`.
+
+2. **Spawning Light Balls:**
+    - On click, calculate the spawn position. Use the `RigidBody` script to instance a new light ball at that position.
+    - Set the ball's color by adjusting the `OmniLight`'s `color` and the `MeshInstance`'s material.
+
+3. **Scene and Composition:**
+    - Each game element should be its own scene for organization and reuse.
+    - Dynamically create instances of these scenes during gameplay with `instance()`.
+
+## Advanced Concepts
+
+1. **Inheritance and Custom Classes:**
+    - Use `extends` for inheritance. Create a `LightBall` class extending `RigidBody`.
+
+2. **Signals for Event Handling:**
+    - Define signals with `signal` and emit with `emit_signal()`.
+    - Connect signals to methods to respond to events like a ball hitting the floor.
+
+3. **Access Modifiers:**
+    - Use naming conventions (e.g., `_privateVar`) to indicate access levels, as GDScript doesn't support explicit access modifiers.
+
+## Finalizing Your Game
+
+- Add game mechanics, UI elements, and sound effects.
+- Test and refine gameplay, ensuring there are no bugs.
+
+## Conclusion
+
+This tutorial offered a foundational understanding of Godot, GDScript, and game development essentials. Experiment further and start creating your own games.
+# Simple Godot Game Tutorial: Light Balls
+
+This tutorial guides you through the creation of a simple Godot game where clicking on a floor spawns colored balls with light. It introduces key concepts like scene structure, scripting with GDScript, inheritance, and signals.
+
+## Setting Up the Project
+
+### Scene Structure
+1. **Create a new Godot project.**
+2. **Set up the game scene:**
+    - Add a `Spatial` node as the root. This acts as the container for the 3D environment.
+    - Add a `StaticBody` as a child of the Spatial node for the floor.
+      - Add a `CollisionShape` and a `MeshInstance` (e.g., a plane) to the `StaticBody`.
+    - Add a `RigidBody` for the light-emitting ball.
+      - As children of the `RigidBody`, add a `CollisionShape`, a `MeshInstance` (e.g., a sphere), and an `OmniLight`.
+
+### Scripting Overview
+
+Scripts define node behavior. GDScript, Godot's scripting language, is Python-like.
+
+1. **Attaching Scripts:**
+    - Attach a script named `LevelManager.gd` to the Spatial node.
+    - Attach scripts to the `StaticBody` and `RigidBody`.
+
+2. **GDScript Basics:**
+    - Variables: `var name = value`
+    - Functions: `func name():`
+    - Control structures: `if`, `for`, `while`
+    - Access nodes: Use `$` (e.g., `$StaticBody`).
+
+## Implementing Game Logic
+
+1. **Detecting Mouse Clicks:**
+    - In the `StaticBody` script, use `_input(event)` to detect clicks. Check for `InputEventMouseButton`.
+
+2. **Spawning Light Balls:**
+    - On click, calculate the spawn position. Use the `RigidBody` script to instance a new light ball at that position.
+    - Set the ball's color by adjusting the `OmniLight`'s `color` and the `MeshInstance`'s material.
+
+3. **Scene and Composition:**
+    - Each game element should be its own scene for organization and reuse.
+    - Dynamically create instances of these scenes during gameplay with `instance()`.
+
+## Advanced Concepts
+
+1. **Inheritance and Custom Classes:**
+    - Use `extends` for inheritance. Create a `LightBall` class extending `RigidBody`.
+
+2. **Signals for Event Handling:**
+    - Define signals with `signal` and emit with `emit_signal()`.
+    - Connect signals to methods to respond to events like a ball hitting the floor.
+
+3. **Access Modifiers:**
+    - Use naming conventions (e.g., `_privateVar`) to indicate access levels, as GDScript doesn't support explicit access modifiers.
+
+## Finalizing Your Game
+
+- Add game mechanics, UI elements, and sound effects.
+- Test and refine gameplay, ensuring there are no bugs.
+
+## Conclusion
+
+This tutorial offered a foundational understanding of Godot, GDScript, and game development essentials. Experiment further and start creating your own games.
 
 # Game Management System Update Guide
 
