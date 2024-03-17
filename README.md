@@ -1,4 +1,86 @@
+Certainly! Below is how you might format these examples in a README.md file using GitHub Markdown:
 
+```markdown
+# GDScript Callables and Lambda Functions Examples
+
+This guide provides examples of using GDScript callables, lambda functions, and their practical applications within Godot 4.
+
+## 1. Basic Function and Callable Example
+
+```gdscript
+# A simple function that creates a greeting message
+func create_greeting(name: String) -> String:
+    return "Hello, " + name + "!"
+
+# Calling the function normally
+print(create_greeting("Jim"))  # Outputs: Hello, Jim!
+
+# Demonstrating the concept of a callable
+var my_callable = create_greeting
+print(my_callable)  # This prints the callable object information
+print(my_callable is Callable)  # Outputs: True
+```
+
+## 2. Using a Callable to Measure Function Execution Time
+
+```gdscript
+# Function to measure the runtime of a callable (no argument functions)
+func get_function_runtime(callable: Callable) -> float:
+    var start_time = OS.get_ticks_msec()
+    callable.call()
+    var end_time = OS.get_ticks_msec()
+    return end_time - start_time
+
+# A sample function whose execution time we want to measure
+func count_to_big_number():
+    var count = 0
+    for i in range(1000000):
+        count += 1
+    return count
+
+# Measuring execution time
+var runtime = get_function_runtime(func() -> void:
+    count_to_big_number()
+)
+print("Runtime: ", runtime, " ms")
+```
+
+## 3. Lambda Functions and Signals
+
+```gdscript
+# Using a Timer node to run a function periodically
+var timer = Timer.new()
+timer.wait_time = 1.0  # 1 second
+timer.one_shot = false  # Repeat
+timer.connect("timeout", self, func():
+    print(create_greeting("Blargis"))
+)
+add_child(timer)
+timer.start()
+```
+
+## 4. Array Mapping with Lambda Functions
+
+```gdscript
+# Doubling each element in an array using map with a lambda function
+var my_array = [1, 2, 3, 4, 5]
+var doubled_array = my_array.map(func(x): return x * 2)
+print(doubled_array)  # Outputs: [2, 4, 6, 8, 10]
+```
+
+## 5. Array Filtering with Lambda Functions
+
+```gdscript
+# Filtering even numbers from an array using filter with a lambda function
+var my_array = [1, 2, 3, 4, 5]
+var even_numbers = my_array.filter(func(x): return x % 2 == 0)
+print(even_numbers)  # Outputs: [2, 4]
+```
+
+These examples showcase the use of GDScript callables and lambda functions in Godot, illustrating basic usage, function execution timing, and array operations.
+```
+
+When adding this to a GitHub `README.md`, ensure the code blocks are properly formatted. GitHub Markdown will handle syntax highlighting for GDScript if you specify `gdscript` in the code fence block. This presentation not only makes the README informative but also engaging for readers looking to understand or reference these concepts.
 # Creating a Dark MIDI Soundscape and Converting to OGG
 
 This guide outlines the process of creating a dark MIDI soundscape, converting the MIDI file to WAV using FluidSynth, and finally converting the WAV file to OGG format using Python.
