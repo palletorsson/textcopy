@@ -47,7 +47,19 @@ The application features a simple polyphonic synthesizer setup using multiple `A
 
 ## Audio Playback
 
-Each `AudioStreamPlayer` is preloaded with a range of audio files, one for each MIDI note. When a note-on event is received, the script checks for the corresponding audio stream and sets it to play through
+Each `AudioStreamPlayer` is preloaded with a range of audio files, one for each MIDI note. When a note-on event is received, the script checks for the corresponding audio stream and sets it to play through the available `AudioStreamPlayer` node.
+
+## Development Notes
+
+- All audio files are stored within the `res://24-piano-keys/` directory and are named sequentially (e.g., `key01.ogg`, `key02.ogg`, etc.).
+- MIDI notes range from 48 to 71, corresponding to the keys of a 2-octave MIDI keyboard.
+
+## Future Work
+
+- Expand the range of MIDI notes supported.
+- Enhance the visual effects for different types of MIDI events.
+- Introduce more complex audio synthesis capabilities.
+
 
 1. **Randomness & Pseudo-randomness**: Basic concepts crucial for many algorithms, serving as the foundation for more complex operations.
 2. **For-loops and Recursion**: Fundamental programming constructs essential for creating iterative and self-referential processes.
