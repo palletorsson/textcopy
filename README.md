@@ -1,3 +1,54 @@
+# MIDI Application Documentation
+
+## Overview
+
+This document outlines the structure and functionality of a MIDI application developed in Godot Engine. The application is designed to receive MIDI input, generate visual feedback through particle effects, display MIDI event information, and play corresponding sounds using a simple polyphonic synthesizer setup.
+
+## Scene Structure
+
+- `Node2D`: Root node of the application.
+  - `MidiControl`: Scripted node that handles MIDI input.
+  - `NoteParticles`: `Particles2D` node that generates visual effects when MIDI notes are played.
+  - `MidiPanel`: UI panel that displays MIDI event information.
+    - `MidiLabelNoteOn`: Label for displaying note-on events.
+    - `MidiLabelVelocity`: Label for displaying the velocity of note-on events.
+    - `MidiLabelNoteOff`: Label for displaying note-off events.
+  - `AudioPlayer1`: First `AudioStreamPlayer` for polyphonic sound playback.
+  - `AudioPlayer2`: Second `AudioStreamPlayer`.
+  - `AudioPlayer3`: Third `AudioStreamPlayer`.
+  - `AudioPlayer4`: Fourth `AudioStreamPlayer`.
+  - `AudioPlayer5`: Fifth `AudioStreamPlayer` for polyphonic sound playback.
+
+## Functionality
+
+### MIDI Control
+
+The `MidiControl` node listens for MIDI events using the Godot Engine's MIDI input functionality. Upon receiving a MIDI event, it performs the following actions:
+
+- Generates particles at the `NoteParticles` node's position to provide visual feedback.
+- Updates the `MidiPanel` with the event information, including the note number and velocity.
+- Triggers one of the `AudioStreamPlayer` nodes to play the corresponding audio file for the received note.
+
+### Visual Feedback
+
+When a MIDI note-on event is detected, the `NoteParticles` node emits particles to visually represent the note being played. The position and color of the particles are dynamically updated based on the note value.
+
+### UI Panel
+
+MIDI event information is displayed in real-time on the `MidiPanel`. It includes the following information:
+
+- `MidiLabelNoteOn`: Shows the last note-on number.
+- `MidiLabelVelocity`: Shows the velocity of the last note-on event.
+- `MidiLabelNoteOff`: Shows the last note-off number.
+
+### Polyphonic Synthesizer
+
+The application features a simple polyphonic synthesizer setup using multiple `AudioStreamPlayer` nodes. When a note is played, the next available `AudioStreamPlayer` is used to play the sound, cycling through them to allow multiple notes to be played simultaneously.
+
+## Audio Playback
+
+Each `AudioStreamPlayer` is preloaded with a range of audio files, one for each MIDI note. When a note-on event is received, the script checks for the corresponding audio stream and sets it to play through
+
 1. **Randomness & Pseudo-randomness**: Basic concepts crucial for many algorithms, serving as the foundation for more complex operations.
 2. **For-loops and Recursion**: Fundamental programming constructs essential for creating iterative and self-referential processes.
 3. **Vector and Dimensionality**: Basic principles of geometry essential for understanding digital spaces.
