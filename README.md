@@ -1,3 +1,82 @@
+
+# Random Monitors Random Walk Visualization
+
+This guide explains how to set up a Godot scene with multiple monitors displaying a random walk pattern.
+
+## Prerequisites
+
+- Godot Engine installed.
+- Basic understanding of Godot's concepts such as nodes, scenes, and scripts.
+
+## Step 1: Creating the Scene
+
+### Open Godot and Create a New Project
+- Launch Godot Engine, create a new project, or open an existing one.
+
+### Add a Root Node
+- Create a new scene and add a `Node3D` as the root node. Rename it to `RandomMonitors` for clarity.
+
+### Add MeshInstance3D Nodes
+- Right-click `RandomMonitors`, select `Add Child Node`, and add a `MeshInstance3D` node.
+- Rename it to `random_monitor_1`.
+- Repeat for additional monitors, naming them `random_monitor_2`, `random_monitor_3`, etc.
+
+### Set Up the MeshInstance3D Nodes
+- For each `MeshInstance3D`, assign a `PlaneMesh` or custom monitor mesh to the `Mesh` property.
+- Scale and position to resemble monitors.
+
+### Add a Camera Node
+- Add a `Camera3D` node as a child of `RandomMonitors`.
+- Position the camera to view all monitors.
+
+### Add a Directional Light
+- Add a `DirectionalLight3D` node for scene lighting.
+- Adjust light direction and properties for the desired effect.
+
+## Step 2: Creating the Random Walk Script
+
+### Create a New GDScript
+- Right-click `random_monitor_1` and select `Attach Script`.
+- Create a new GDScript named `RandomWalk.gd`.
+
+### Add the Script Code
+- Copy and paste the random walk script into `RandomWalk.gd`.
+
+## Step 3: Configuring the Timer
+
+### Add a Timer Node
+- In `_ready()`, create a `Timer` node programmatically to trigger the random walk function.
+
+### Connect the Timer Signal
+- Connect the `timeout` signal to `_on_Timer_timeout` for random walk updates.
+
+## Step 4: Assigning the Script to Monitors
+
+### Attach the Script to Other Monitors
+- Select other monitors and attach `RandomWalk.gd` via the Inspector.
+
+## Step 5: Running the Scene
+
+### Run the Scene
+- Click 'Play Scene' or press F6 to run.
+- Each monitor should display a unique random walk pattern.
+
+## Step 6: Saving and Testing
+
+### Save the Scene
+- Save your scene with a descriptive name.
+
+### Test the Scene
+- Run and observe the random walk pattern on each monitor.
+
+### Iterate and Improve
+- Adjust random walk parameters, camera position, and lighting as needed.
+
+## Conclusion
+
+You now have a Godot scene with monitors displaying dynamic random walk patterns. Experiment with different configurations to enhance your scene.
+
+
 # MIDI Application Documentation
 
 ## Overview
