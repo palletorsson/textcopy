@@ -1,3 +1,63 @@
+# Godot 3D Movers Project
+
+This Godot project demonstrates a dynamic 3D simulation with `MeshInstance3D` nodes acting as "movers" that navigate within a 3D space, managed by a central script, and visualized with a custom shader.
+
+## Overview
+
+The project structures around three main components:
+- **BallManager (`MeshInstance3D`)**: A 3D mesh node managing mover objects.
+- **Mover (`Mover.gd`)**: A script defining mover behavior and properties.
+- **BallShader (`BallShader.shader`)**: A shader script for visual effects.
+
+### BallManager (`MeshInstance3D`)
+
+Serves as the central manager for mover objects, responsible for instantiation, physics updates, and shader data passing.
+
+#### Features
+- Dynamically creates mover instances.
+- Applies forces to simulate physics interactions.
+- Updates a shader to visualize movers based on their positions.
+
+### Mover (`Mover.gd`)
+
+Defines the physics properties (position, velocity, acceleration) and behaviors (force application, movement updates) of a mover object.
+
+#### Key Properties
+- `mass`, `radius`, `ball_position`, `velocity`, `acceleration`
+- Method `apply_force` for physics interactions.
+- Method `process_movement` for position updates based on velocity and applied forces.
+
+### BallShader (`BallShader.shader`)
+
+Visualizes mover objects dynamically based on the positions and properties passed from the `BallManager` script.
+
+#### Shader Logic
+- Adjusts visual representation (color, size) based on mover properties.
+- Implements visual effects such as outlines and color gradients.
+
+## Setup and Configuration
+
+1. **Scene Setup**: Create a 3D scene in Godot and add a `MeshInstance3D` node.
+2. **Script Attachment**: Attach `BallManager.gd` to the `MeshInstance3D` node.
+3. **Shader Assignment**: Assign `BallShader.shader` as the material of the `MeshInstance3D`.
+
+## Usage
+
+- The scene automatically initializes mover objects and starts the simulation.
+- Interactions and physics effects (like forces) can be applied through the `BallManager` script.
+
+## Customization
+
+- **Movers**: Adjust `Mover.gd` to change physics properties and behaviors.
+- **Visual Effects**: Modify `BallShader.shader` for different visualizations.
+
+## Contributing
+
+Contributions to improve the simulation or extend its capabilities are welcome. Please submit pull requests or open issues to discuss proposed changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 # Random Monitors Random Walk Visualization
 
