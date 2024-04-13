@@ -1,3 +1,83 @@
+
+# Ada Research Project Todo List
+
+## Phase 1: Basic Elements (Year 1)
+
+### Exploration
+- Implement foundational algorithms for generative art (Randomness, Fibonacci).
+- Experiment with algorithms like Perlin noise, Voronoi diagrams, sine curves, resonance frequencies, sound, and particle systems.
+- Push algorithms to their limits and document findings in a coding diary.
+- Synthesize existing literature on relevant topics.
+
+### Workshop/Testing
+- Host game testing workshops with Design Academy Eindhoven and KTH Royal Institute of Technology.
+- Get feedback on applying work to computer vision (Benoit Baudry) and spatial configuration (Ian Biscoe).
+- Discuss theoretical and technical challenges with partners.
+
+### Documentation/Release
+- Use GitHub for version control and iterative publication.
+- Document props, algorithms, and labs in a game wiki.
+
+## Phase 2: Advanced Elements (Year 1)
+
+### Exploration
+- Implement complex algorithms for sophisticated forms (Fractal subdivision, Flow fields, Fourier transforms, L-systems, Cellular automata).
+- Explore algorithmic topology of desire and creation of queer meshes/textures.
+- Experiment with soft body simulation and deformable objects.
+
+### Workshop/Testing
+- Expand workshop group with renowned artists (Rosa Menkman, Evan Roth, Anna Uddenberg, Geraldine Juarez).
+- Get feedback on navigating tension between different dualities (order/disorder, function/dysfunction, etc.).
+
+### Documentation/Release
+- Continue using GitHub for version control and documentation.
+- Update game wiki with new information.
+
+## Phase 3: Pattern and World Building (Year 2)
+
+### Exploration
+- Implement algorithms for unique patterns and game environments (Reaction-diffusion systems, Graph Theory, Procedural generation, Neural networks, Shading algorithms, Evolutionary algorithms).
+- Explore navigation within an auto-generated world.
+
+### Workshop/Testing
+- Continue working with expanded workshop group.
+- Refine game experience and address feedback.
+
+### Documentation/Release
+- Continue using GitHub for version control and documentation.
+- Update game wiki with new information.
+
+## Phase 4: Advanced Techniques (Year 2)
+
+### Exploration
+- Implement cutting-edge algorithms (Swarm intelligence, Chaos theory).
+- Explore algorithmic life and AI.
+- Experiment with non-euclidean spaces.
+
+### Workshop/Testing
+- Continue working with expanded workshop group.
+- Refine game experience and address feedback.
+
+### Documentation/Release
+- Continue using GitHub for version control and documentation.
+- Update game wiki with new information.
+
+## Phase 5: Finalization and Publication (Year 3)
+
+- Optimize final release of VR experience.
+- Prepare exhibitions in galleries and institutions (Marina Schiptjenko, Acute Art).
+- Publish book documenting the project and its grammar.
+- Release final game wiki as open-source resource.
+
+## Additional Tasks
+
+- Secure funding for project.
+- Order necessary equipment (VR headsets, high-performance computers).
+- Manage project organization and communication.
+- Coordinate international and national collaboration.
+
+_This to-do list is a guide and may be adapted as the project progresses._
+
 # Godot 3D Movers Project
 
 This Godot project demonstrates a dynamic 3D simulation with `MeshInstance3D` nodes acting as "movers" that navigate within a 3D space, managed by a central script, and visualized with a custom shader.
