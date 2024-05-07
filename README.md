@@ -1,3 +1,37 @@
+# Godot Script Documentation: Simulated Mouse Movement on MeshInstance3D
+
+This Godot script is attached to a `MeshInstance3D` node to simulate mouse movements across a screen. The script creates coordinates for a virtual mouse that moves in a sinusoidal pattern mixed with random motion and sends these coordinates to a shader for rendering effects.
+
+## Properties
+- **`update_frequency`**: Frequency of updates for the simulated mouse position, in seconds.
+- **`movement_radius`**: Radius of the sinusoidal movement, controlling how far from the center the mouse can move.
+- **`speed`**: Speed at which the mouse moves; affects the frequency of the sinusoidal function.
+- **`direction`**: Initial direction of the sinusoidal movement, which can occasionally reverse.
+- **`rng`**: Instance of `RandomNumberGenerator` used to generate random values for motion and direction changes.
+
+## Functions
+
+### `_ready()`
+- Initializes a timer that triggers updates at intervals defined by `update_frequency`.
+- Randomizes the random number generator's seed.
+
+### `_on_timer_timeout()`
+- Calculates the current time-based angle for the sinusoidal movement using `speed` and `direction`.
+- Introduces randomness in the movement using `random_offset_x` and `random_offset_y` to vary the exact path of the mouse.
+- Occasionally reverses the direction of movement based on a random chance.
+- Normalizes the resulting sinusoidal coordinates to ensure they fall within the [0, 1] range suitable for shader use.
+- Updates the shader parameter `mouse_pos` with the normalized coordinates, ensuring they are correctly mapped for rendering in the shader.
+
+## Shader Integration
+The script assumes the presence of a `ShaderMaterial` set as `material_override` on the `MeshInstance3D`. It updates this material's `mouse_pos` shader parameter directly, which should be used within the shader to represent dynamic positions based on the simulated mouse movement.
+
+## Usage
+Attach this script to a `MeshInstance3D` node in your scene. Ensure the material override of the node is set to a `ShaderMaterial` that utilizes a `mouse_pos` parameter. Adjust the `update_frequency`, `movement_radius`, and `speed` properties as needed to fit the desired visual effect in your project.
+
+This script is ideal for dynamic visualizations, interactive backgrounds, or any scenario where simulated mouse movements can enhance visual effects dynamically in real-time within a 3D rendered scene.
+
+
+
 Your setup consists of a Godot project that integrates custom shader logic with data loaded from a CSV file. This project allows dynamic changes to visual elements in the game environment using Godot's shader system. Below is a breakdown of how each component of your script and scene setup functions:
 
 ### Shader Code
