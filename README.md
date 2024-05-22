@@ -1,3 +1,154 @@
+
+# Godot First-Person Player Setup
+
+This guide provides step-by-step instructions for setting up a first-person player controller in Godot.
+
+## Step 1: Create the Player Node Structure
+
+1. **Create a `CharacterBody3D` Node:**
+   - Right-click in the Scene panel and choose "Add Child Node."
+   - Search for `CharacterBody3D` and add it.
+   - Rename it to `Player_CharacterBody3D`.
+
+2. **Add a `CollisionShape3D` Node:**
+   - Select `Player_CharacterBody3D`.
+   - Add a `CollisionShape3D` node as a child.
+   - Select the `CollisionShape3D` node and set its shape to a `CapsuleShape3D` or another appropriate shape for a player character.
+
+3. **Add a `Node3D` for the Head:**
+   - Select `Player_CharacterBody3D`.
+   - Add a `Node3D` and rename it to `Head_Node3D`.
+
+4. **Add a `Camera3D` Node:**
+   - Select `Head_Node3D`.
+   - Add a `Camera3D` node as a child.
+
+## Step 2: Set Up the Script
+
+Attach a script to `Player_CharacterBody3D`. Here’s the complete script for the player:
+
+```gdscript
+extends CharacterBody3D
+
+@onready var head = $Head_Node3D
+
+var current_speed = 5.0
+
+const WALKING_SPEED = 5.0
+const SPRINTING_SPEED = 8.0
+const CROUCHING_SPEED = 2.0
+const CROUCHING_DEPTH = 0.5
+const JUMP_VELOCITY = 4.5
+const MOUSE_SENSITIVITY = 0.15
+const LERP_SPEED = 5.0
+
+var direction = Vector3.ZERO
+var velocity = Vector3.ZERO
+
+# Get the gravity from the project settings to be synced with RigidBody nodes.
+var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
+
+func _ready():
+    Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
+func _input(event):
+    if event is InputEventMouseMotion:
+        handle_mouse_look(event)
+
+func _physics_process(delta):
+    handle_movement(delta)
+    handle_crouch(delta)
+    handle_gravity(delta)
+    handle_jump()
+    update_velocity(delta)
+    move_and_slide(velocity)
+
+func handle_mouse_look(event):
+    rotate_y(deg_to_rad(-event.relative.x * MOUSE_SENSITIVITY))
+    head.rotate_x(deg_to_rad(-event.relative.y * MOUSE_SENSITIVITY))
+    head.rotation.x = clamp(head.rotation.x, deg_to_rad(-89), deg_to_rad(89))
+
+func handle_movement(delta):
+    if Input.is_action_pressed("sprint"):
+        current_speed = SPRINTING_SPEED
+    else:
+        current_speed = WALKING_SPEED
+
+func handle_crouch(delta):
+    if Input.is_action_pressed("crouch"):
+        current_speed = CROUCHING_SPEED
+        head.position.y = lerp(head.position.y, 1.8 - CROUCHING_DEPTH, delta * LERP_SPEED)
+    else:
+        head.position.y = lerp(head.position.y, 1.8, delta * LERP_SPEED)
+
+func handle_gravity(delta):
+    if not is_on_floor():
+        velocity.y -= gravity * delta
+
+func handle_jump():
+    if Input.is_action_just_pressed("ui_accept") and is_on_floor():
+        velocity.y = JUMP_VELOCITY
+
+func update_velocity(delta):
+    var input_dir = Vector2.ZERO
+    
+    if Input.is_action_pressed("move_right"):
+        input_dir.x += 1
+    if Input.is_action_pressed("move_left"):
+        input_dir.x -= 1
+    if Input.is_action_pressed("move_forward"):
+        input_dir.y += 1
+    if Input.is_action_pressed("move_back"):
+        input_dir.y -= 1
+    
+    input_dir = input_dir.normalized()
+    direction = lerp(direction, Vector3(input_dir.x, 0, input_dir.y).normalized(), delta * LERP_SPEED)
+    
+    if direction != Vector3.ZERO:
+        velocity.x = direction.x * current_speed
+        velocity.z = direction.z * current_speed
+    else:
+        velocity.x = move_toward(velocity.x, 0, current_speed * delta)
+        velocity.z = move_toward(velocity.z, 0, current_speed * delta)
+
+    # Debug prints to diagnose movement issues
+    print("Input Direction: ", input_dir)
+    print("Direction: ", direction)
+    print("Velocity: ", velocity)
+```
+
+## Step 3: Set Up Input Actions
+
+1. **Open Project Settings:**
+   - Go to `Project -> Project Settings -> Input Map`.
+
+2. **Add Input Actions:**
+   - Add actions for `move_forward`, `move_back`, `move_left`, `move_right`, `sprint`, `crouch`, and `ui_accept`.
+
+3. **Map Keys to Actions:**
+   - `move_forward`: W key
+   - `move_back`: S key
+   - `move_left`: A key
+   - `move_right`: D key
+   - `sprint`: Shift key
+   - `crouch`: Control key
+   - `ui_accept`: Space key
+
+## Step 4: Test the Player
+
+1. **Run the Scene:**
+   - Make sure the scene with `Player_CharacterBody3D` is your main scene.
+   - Press `F5` or click the play button to run the scene.
+
+2. **Check for Movement:**
+   - Use W, A, S, D to move.
+   - Use Shift to sprint.
+   - Use Control to crouch.
+   - Use Space to jump.
+   - Move the mouse to look around.
+
+This should set up a basic first-person controller in Godot. If you encounter any issues, check the debug console for the print statements to diagnose the input and movement logic.
+
 # Godot Script Documentation: Simulated Mouse Movement on MeshInstance3D
 
 This Godot script is attached to a `MeshInstance3D` node to simulate mouse movements across a screen. The script creates coordinates for a virtual mouse that moves in a sinusoidal pattern mixed with random motion and sends these coordinates to a shader for rendering effects.
