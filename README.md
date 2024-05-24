@@ -1,6 +1,159 @@
+# Creating a Pink Gun in Godot
 
-Copy the above content into a new file named `README.md` in your project directory or any preferred location. This will serve as a complete guide for setting up the pink gun in Godot. &#8203;``【oaicite:0】``&#8203;
+This guide provides step-by-step instructions for setting up a pink gun in Godot that shoots pink balls.
 
+## Step 1: Create the PinkBall Scene
+
+1. **Create a New Scene:**
+   - Create a new `RigidBody3D` node.
+   - Rename it to `PinkBall`.
+
+2. **Add a CollisionShape3D:**
+   - Add a `CollisionShape3D` as a child of `PinkBall`.
+   - Set its shape to a `SphereShape3D`.
+
+3. **Add a MeshInstance3D:**
+   - Add a `MeshInstance3D` as a child of `PinkBall`.
+   - Assign a sphere mesh and set its material to pink.
+
+4. **Add a Script to `PinkBall`:**
+   - Attach a new script to the `PinkBall` node.
+   - Name the script `PinkBall.gd`.
+
+### PinkBall.gd Script:
+
+```gdscript
+extends RigidBody3D
+
+func _ready():
+    # No need to set linear_velocity here as it's done in the MachineGun script
+    pass
+
+func _on_PinkBall_body_entered(body):
+    queue_free()
+    # Add logic for what happens when the ball hits something
+```
+
+## Step 2: Create the Pink Machine Gun
+
+1. **Set Up the Player Scene:**
+   - Create a new `CharacterBody3D` node.
+   - Rename it to `Player_CharacterBody3D`.
+
+2. **Add a CollisionShape3D to the Player:**
+   - Add a `CollisionShape3D` as a child of `Player_CharacterBody3D`.
+   - Set its shape to a `CapsuleShape3D` or another appropriate shape for a player character.
+
+3. **Add a Head Node:**
+   - Add a `Node3D` as a child of `Player_CharacterBody3D`.
+   - Rename it to `Head_Node3D`.
+
+4. **Add a Camera:**
+   - Add a `Camera3D` as a child of `Head_Node3D`.
+
+5. **Add the Pink Machine Gun:**
+   - Add a `Node3D` as a child of `Camera3D`.
+   - Rename it to `pinkmachine`.
+
+6. **Add a Muzzle Node:**
+   - Add a `Node3D` or `Position3D` as a child of `pinkmachine`.
+   - Rename it to `Muzzle`.
+   - Position it at the end of the gun barrel.
+
+7. **Add a Script to the Pink Machine Gun:**
+   - Attach a new script to the `pinkmachine` node.
+   - Name the script `MachineGun.gd`.
+
+### MachineGun.gd Script:
+
+```gdscript
+extends Node3D
+
+@export var ball_scene: PackedScene
+@export var fire_rate: float = 0.1
+@export var ball_speed: float = 50.0  # Adjust this value to increase speed
+@onready var muzzle: Node3D = $Muzzle
+
+var can_fire = true
+
+func _ready():
+    set_process(true)
+    if muzzle == null:
+        print("Error: Muzzle node is not assigned or found")
+
+func _process(delta):
+    if Input.is_action_pressed("ui_shoot") and can_fire:
+        fire()
+
+func fire():
+    can_fire = false
+
+    # Ensure the ball scene is instantiated correctly
+    var ball_instance = ball_scene.instantiate()
+    if ball_instance == null:
+        print("Error: ball_scene could not be instantiated")
+        return
+
+    # Cast the instance to RigidBody3D to access physics properties
+    var ball = ball_instance as RigidBody3D
+    if ball == null:
+        print("Error: ball_scene is not a RigidBody3D")
+        return
+
+    # Ensure muzzle is valid before accessing its global_transform
+    if muzzle == null:
+        print("Error: Muzzle node is not assigned or found")
+        return
+
+    # Set the position and direction of the ball based on the muzzle
+    ball.global_transform = muzzle.global_transform
+    ball.linear_velocity = muzzle.global_transform.basis.z * -ball_speed  # Adjust speed as needed
+
+    # Add the ball to the scene root to ensure it moves independently of the player
+    get_tree().root.add_child(ball)
+    await get_tree().create_timer(fire_rate).timeout
+    can_fire = true
+```
+
+## Step 3: Set Up Input Actions
+
+1. **Open Project Settings:**
+   - Go to `Project -> Project Settings -> Input Map`.
+
+2. **Add Input Actions:**
+   - Add an action called `ui_shoot` and map it to a key (e.g., Space or Left Mouse Button).
+
+## Step 4: Assign the Pink Ball Scene to the Machine Gun
+
+1. **Assign the Scene:**
+   - In the Inspector for `pinkmachine`, find the `ball_scene` property and assign the `PinkBall.tscn` to it.
+
+## Example Scene Structure:
+
+```
+Player_CharacterBody3D
+├── CollisionShape3D
+├── Head_Node3D
+│   └── Camera3D
+│       └── pinkmachine
+│           └── Muzzle (Node3D or Position3D)
+│           └── MachineGun.gd
+```
+
+## Testing the Setup
+
+1. **Run the Scene:**
+   - Make sure the scene with `Player_CharacterBody3D` is your main scene.
+   - Press `F5` or click the play button to run the scene.
+
+2. **Check for Movement and Shooting:**
+   - Use W, A, S, D to move.
+   - Use Shift to sprint.
+   - Use Control to crouch.
+   - Use Space (or your mapped key) to shoot.
+   - Move the mouse to look around.
+
+With these steps, you should have a functional pink gun in Godot that shoots pink balls from the muzzle. If you encounter any issues, check the debug console for errors and ensure all nodes and scripts are set up correctly.
 
 # Godot First-Person Player Setup
 
