@@ -1,4 +1,7 @@
 
+Copy the above content into a new file named `README.md` in your project directory or any preferred location. This will serve as a complete guide for setting up the pink gun in Godot. &#8203;``【oaicite:0】``&#8203;
+
+
 # Godot First-Person Player Setup
 
 This guide provides step-by-step instructions for setting up a first-person player controller in Godot.
