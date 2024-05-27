@@ -1,3 +1,153 @@
+# Unreal Engine C++ "Hello World" Tutorial
+
+This tutorial guides you through creating a basic "Hello World" actor in Unreal Engine 5.3, with a counter that logs every 10th tick and stops after 260 ticks.
+
+## Step 1: Create a New C++ Project
+
+1. **Open Epic Games Launcher:**
+   - Launch the Epic Games Launcher and navigate to the Unreal Engine tab.
+
+2. **Create a New Project:**
+   - Click on `New Project`.
+   - Select the `Games` category and click `Next`.
+   - Choose the `Blank` template and click `Next`.
+   - Select `C++` and ensure the project settings are as desired.
+   - Name your project (e.g., `HelloWorldProject`) and click `Create Project`.
+
+## Step 2: Create a New C++ Class
+
+1. **Open the Unreal Editor:**
+   - Once the project is created, the Unreal Editor will open.
+
+2. **Create a New Actor Class:**
+   - In the Unreal Editor, go to `File` -> `New C++ Class`.
+   - Select `Actor` as the parent class and click `Next`.
+   - Name your class `HelloWorldActor` and click `Create Class`.
+
+## Step 3: Implement the Actor
+
+Open the generated class files in Visual Studio and modify them as follows:
+
+### Header File: `HelloWorldActor.h`
+
+```cpp
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "HelloWorldActor.generated.h"
+
+UCLASS()
+class HELLOWORLDPROJECT_API AHelloWorldActor : public AActor
+{
+	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	AHelloWorldActor();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+private:
+	int32 TickCount;
+};
+```
+Source File: HelloWorldActor.cpp
+```cpp
+Copy code
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#include "HelloWorldActor.h"
+#include "Engine/Engine.h"
+
+// Sets default values
+AHelloWorldActor::AHelloWorldActor()
+{
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+	// Initialize the tick counter
+	TickCount = 0;
+}
+
+// Called when the game starts or when spawned
+void AHelloWorldActor::BeginPlay()
+{
+	Super::BeginPlay();
+	
+	// Initial log message when the game starts
+	if (GEngine)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Hello World"));
+	}
+}
+
+// Called every frame
+void AHelloWorldActor::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	// Increment the tick counter
+	TickCount++;
+
+	// Log a message every 10th tick
+	if (TickCount % 10 == 0)
+	{
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, FString::Printf(TEXT("Tick Count: %d"), TickCount));
+		}
+	}
+
+	// Stop ticking after 260 ticks
+	if (TickCount >= 260)
+	{
+		SetActorTickEnabled(false);
+
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Ticking Stopped"));
+		}
+	}
+}
+```
+Step 4: Compile the Project
+Compile the Code:
+Save all your changes in Visual Studio.
+Go back to the Unreal Editor.
+Click the Compile button in the toolbar (it looks like a hammer).
+Step 5: Place the Actor in the Level
+Open the Level:
+
+Open the level where you want to place the actor (or create a new level).
+Find Your Actor:
+
+In the Content Browser, navigate to the "C++ Classes" folder and then to your project’s name. You should see HelloWorldActor listed.
+Place the Actor:
+
+Drag and drop the HelloWorldActor into the viewport.
+Save the Level:
+
+Click on File -> Save Current Level or Save All.
+Step 6: Test the Actor
+Play the Game:
+Click the Play button in the Unreal Editor toolbar.
+You should see "Hello World" printed on the screen when the game starts.
+Every 10th tick, you should see a message with the current tick count.
+After 260 ticks, ticking will stop, and a message will indicate that ticking has stopped.
+Step 7: Build Shortcut
+For a quick build process, you can use the shortcut Ctrl + Alt + F11 to compile your code.
+
+
+
 # Creating a Pink Gun in Godot
 
 This guide provides step-by-step instructions for setting up a pink gun in Godot that shoots pink balls.
