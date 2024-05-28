@@ -1,4 +1,89 @@
+# Change Material Color in Unreal Engine
 
+This tutorial demonstrates how to create a material in Unreal Engine, apply it to a static mesh in a Blueprint, and change its color to yellow using a C++ script.
+
+## Prerequisites
+
+- Unreal Engine installed
+- Basic knowledge of Unreal Engine's interface
+- Basic knowledge of C++ programming
+
+## Step 1: Create a Material
+
+1. **Create a New Material:**
+   - In the Content Browser, right-click and select `Create Basic Asset` -> `Material`.
+   - Name the material `M_ChangeColor`.
+
+2. **Edit the Material:**
+   - Double-click on `M_ChangeColor` to open it in the Material Editor.
+   - Add a `Vector Parameter` node:
+     - Right-click in the Material graph and search for `Vector Parameter`.
+     - Name the parameter `BaseColor`.
+
+3. **Connect the Vector Parameter:**
+   - Connect the `RGB` output of the `BaseColor` node to the `Base Color` input of the material's output node.
+
+4. **Save the Material:**
+   - Save and close the Material Editor.
+
+## Step 2: Create a Blueprint Based on Your C++ Class
+
+1. **Create a Blueprint Class:**
+   - In the Content Browser, right-click and select `Create Basic Asset` -> `Blueprint Class`.
+   - Choose `Actor` as the parent class.
+   - Name the Blueprint `BP_ChangeColor`.
+
+2. **Set the Parent Class to Your C++ Class:**
+   - Open the `BP_ChangeColor` blueprint.
+   - In the Blueprint Editor, click on `Class Settings`.
+   - In the Details panel, under `Class Options`, set the `Parent Class` to `AChangeColorActor` (or whatever your C++ class is named).
+
+3. **Add a Static Mesh Component:**
+   - In the Components panel, click `Add Component` and add a `Static Mesh`.
+   - Set the static mesh to a plane or any other mesh you prefer.
+   - In the Details panel, assign the `M_ChangeColor` material to this mesh.
+
+4. **Compile and Save the Blueprint:**
+   - Compile and save the Blueprint.
+
+## Step 3: Implement the C++ Code
+
+1. **Create a New C++ Class:**
+   - If not already done, create a new C++ class derived from `AActor`. Name it `ChangeColorActor`.
+
+2. **Edit the Header File: `ChangeColorActor.h`**
+
+```cpp
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "ChangeColorActor.generated.h"
+
+UCLASS()
+class RANDOMWALKSCREEN_API AChangeColorActor : public AActor
+{
+    GENERATED_BODY()
+
+public:
+    // Sets default values for this actor's properties
+    AChangeColorActor();
+
+protected:
+    // Called when the game starts or when spawned
+    virtual void BeginPlay() override;
+
+private:
+    UPROPERTY(VisibleAnywhere)
+    UStaticMeshComponent* StaticMeshComponent;
+
+    UMaterialInstanceDynamic* DynamicMaterialInstance;
+};
+```
+## Edit the Source File: ChangeColorActor.cpp
+```cpp
+
+```
 # Unreal Engine C++ "Hello World" Tutorial
 
 This tutorial guides you through creating a basic "Hello World" actor in Unreal Engine 5.3, with a counter that logs every 10th tick and stops after 260 ticks.
