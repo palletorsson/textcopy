@@ -82,8 +82,51 @@ private:
 ```
 ## Edit the Source File: ChangeColorActor.cpp
 ```cpp
+#include "ChangeColorActor.h"
+#include "Components/StaticMeshComponent.h"
+#include "Materials/MaterialInstanceDynamic.h"
+
+// Sets default values
+AChangeColorActor::AChangeColorActor()
+{
+    // Set this actor to call Tick() every frame.
+    PrimaryActorTick.bCanEverTick = false;
+
+    // Create and set up the static mesh component
+    StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComponent"));
+    RootComponent = StaticMeshComponent;
+}
+
+// Called when the game starts or when spawned
+void AChangeColorActor::BeginPlay()
+{
+    Super::BeginPlay();
+
+    if (StaticMeshComponent)
+    {
+        // Get the material of the static mesh
+        UMaterialInterface* Material = StaticMeshComponent->GetMaterial(0);
+        if (Material)
+        {
+            // Create a dynamic material instance
+            DynamicMaterialInstance = UMaterialInstanceDynamic::Create(Material, this);
+            if (DynamicMaterialInstance)
+            {
+                // Set the dynamic material instance to the static mesh
+                StaticMeshComponent->SetMaterial(0, DynamicMaterialInstance);
+
+                // Change the color to yellow
+                DynamicMaterialInstance->SetVectorParameterValue(FName("BaseColor"), FLinearColor::Yellow);
+            }
+        }
+    }
+}
 
 ```
+# Complite and Add
+
+In the Content Browser, drag the BP_ChangeColor Blueprint into the level.
+
 # Unreal Engine C++ "Hello World" Tutorial
 
 This tutorial guides you through creating a basic "Hello World" actor in Unreal Engine 5.3, with a counter that logs every 10th tick and stops after 260 ticks.
