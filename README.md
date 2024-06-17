@@ -1,3 +1,193 @@
+The_Posthuman_-_Rosi_Braidotti
+
+## Introduction to the Posthuman Condition
+
+The concept of what it means to be human is not as clear-cut as one might assume. Our traditional understanding of humanity, as a rational, rights-bearing individual rooted in Enlightenment ideals, is under scrutiny. The term 'human' itself, despite its widespread use and seeming common sense, is being questioned.
+
+In today's world, conservative and religious forces often attempt to anchor humanity within natural law. However, scientific advancements and global economic pressures have significantly altered this concept. We now face a "posthuman" condition, which is not just another ideological phase but represents a profound shift in our understanding of humanity.
+
+The posthuman condition challenges the very essence of our shared identity amidst the complexities of modern science, politics, and international relations. Mainstream discussions span from the technological and scientific aspects, such as robotics and biotechnology, to more philosophical and ethical considerations like transhumanism and human enhancement. Academically, the posthuman is either celebrated as a groundbreaking frontier or dismissed as a fleeting trend. This condition raises concerns about the decentering of the human subject, which has traditionally been the focus of the Humanities.
+
+I propose that the posthuman condition is rooted in the assumption of a self-organizing, non-naturalistic structure of living matter, creating a continuum between nature and culture. This perspective moves away from the dualistic nature-culture divide, emphasizing instead a monistic view where living matter is inherently self-organizing. This shift has blurred traditional boundaries and necessitates a reevaluation of our concepts and methods in social theory and progressive politics.
+
+### Key Questions and Themes
+
+This book aims to explore several critical questions related to the posthuman condition:
+1. **What is the posthuman?** This involves tracing the intellectual and historical paths leading to the posthuman.
+2. **Where does the posthuman condition leave humanity?** This question examines the new forms of subjectivity that arise from the posthuman condition.
+3. **How does the posthuman engender its own forms of inhumanity?** This involves understanding and resisting the inhumane aspects of our era.
+4. **How does the posthuman affect the practice of the Humanities today?** This question addresses the role of theory in posthuman times.
+
+### Vignettes Illustrating the Posthuman Condition
+
+#### Vignette 1: Humanity in Crisis
+An 18-year-old Finnish boy, Pekka-Eric Auvinen, opened fire on his classmates, killing eight before committing suicide. Before the massacre, he posted a video wearing a shirt that read "Humanity is overrated." This tragic event highlights a philosophical anti-humanism that questions the self-evident status of human nature and the need for critical thought and community reconstitution without falling into cynicism.
+
+#### Vignette 2: The Biotechnological Paradox
+Advanced capitalism and biogenetic technologies have created a posthuman condition marked by a radical disruption of human-animal interactions. An example is the "mad cow disease" outbreak caused by feeding animals meat-based fodder. This illustrates the commodification of living organisms and raises ethical concerns about the treatment of animals in industrial and scientific contexts.
+
+#### Vignette 3: Posthuman Warfare
+The death of Libyan leader Muammar Gaddafi, aided by advanced drone technology, exemplifies the posthuman aspect of contemporary warfare. The use of tele-thanatological machines in modern conflicts raises questions about the ethical implications and the evolving nature of military engagement.
+
+#### Vignette 4: The Crisis of the Humanities
+The Humanities face a crisis in the neoliberal context, where they are often seen as irrelevant compared to the hard sciences. A Cognitive Sciences professor criticized the Humanities for their anthropocentrism and methodological nationalism, highlighting the need for these fields to adapt to contemporary scientific paradigms and remain socially relevant.
+
+### Towards a Posthuman Theory
+
+This book argues for a posthuman theory that navigates between fascination with the posthuman condition and concern for its potential abuses. It aims to offer a cartographic representation of our historical location and the status of theory itself.
+
+In a world where critical thought is often dismissed in favor of empirical data, the posthuman condition requires us to rethink our approach to knowledge and subjectivity. The posthuman perspective encourages us to engage affirmatively with the present, rethinking human interactions on a planetary scale in the bio-genetic age known as the Anthropocene.
+
+By exploring these themes, this book seeks to provide a nuanced understanding of the posthuman condition and its implications for humanity, ethics, and the Humanities.
+
+## Chapter 2: Post-Anthropocentrism: Life beyond the Species
+
+### Introduction
+
+In this chapter, we delve into the concept of post-anthropocentrism, which is an essential part of the broader posthuman condition. Post-anthropocentrism challenges the traditional human-centered worldview, emphasizing a more inclusive approach that recognizes the interconnectedness and equality of all forms of life.
+
+### George Eliot and Spinoza
+
+George Eliot, a beloved author, translated the works of Spinoza, whose monistic philosophy deeply influences post-anthropocentric thought. Spinoza's idea of a unified substance, where matter, world, and humans are interconnected, contrasts sharply with Descartes' mind-body dualism. Spinoza's monism sees matter as inherently self-organizing and free, devoid of any inherent negativity or dialectical opposition.
+
+### Spinozist Legacy and Vitalist Materialism
+
+Spinoza's monistic worldview, rehabilitated by French scholars in the 1970s, introduces the concept of vitalist materialism, which is fundamental to posthuman sensibility. Vitalist materialism understands life as a self-organizing, intelligent force present in all living matter. This view supports the idea of radical immanence, rejecting all forms of transcendence.
+
+### The Crisis of Anthropocentrism
+
+The post-anthropocentric turn marks a significant departure from traditional Humanism. This shift is propelled by the compounded impacts of globalization and technological advancements, affecting not only the Humanities but also extending to fields like environmentalism, neuroscience, and robotics. This high degree of trans-disciplinarity necessitates a reevaluation of contemporary subjectivity and subject-formation.
+
+### Post-Anthropocentric Subjectivity
+
+Post-anthropocentric subjectivity challenges the notion of human exceptionalism, advocating for a more inclusive approach that recognizes the interconnectedness of all forms of life. This perspective emphasizes the importance of relationality and interdependence, moving away from a dualistic, anthropocentric framework.
+
+### Global Warming and Environmental Crisis
+
+The environmental crisis, particularly climate change, exemplifies the urgency of post-anthropocentric thinking. The interconnectedness of all life forms becomes evident in the face of global ecological challenges. This crisis calls for a reevaluation of human actions and their impact on the planet, advocating for a more sustainable and equitable relationship with the environment.
+
+### Post-Anthropocentric Ethics and Politics
+
+Post-anthropocentric ethics emphasizes the importance of relationality and interdependence. It rejects the hierarchical distinction between humans and other life forms, advocating for a more egalitarian approach. This perspective aligns with Spinozist monism, promoting a compassionate and interconnected view of subjectivity.
+
+### Posthuman Becoming
+
+The posthuman condition encompasses the becoming-animal, becoming-earth, and becoming-machine, representing different axes of transformation. These processes challenge traditional notions of subjectivity and highlight the interconnectedness of all forms of life. Post-anthropocentrism calls for a rethinking of these relationships, advocating for a more inclusive and compassionate approach.
+
+### Conclusion
+
+Post-anthropocentrism, as an integral part of the posthuman condition, challenges the traditional human-centered worldview. It emphasizes the interconnectedness and equality of all forms of life, advocating for a more inclusive and sustainable approach to subjectivity and ethics. By recognizing the inherent relationality and interdependence of all life forms, post-anthropocentrism offers a promising framework for addressing the complex challenges of the contemporary world.
+
+### Chapter 3: The Inhuman: Life Beyond Death
+
+#### Introduction
+
+One of my favorite films is Marcel L’Herbier’s *L’Inhumaine* (1924), a visual masterpiece with sets designed by Fernand Léger and Robert Mallet-Stevens. This film, an exemplar of expressionist elegance, constructivist exuberance, and futurist confidence, epitomizes the inhuman elements reflective of its historical context. It explores the superhuman capacity of women to influence human history and evolution, portraying the female body in a seductive alliance with the advancing powers of technology. This narrative, balancing fear and desire towards technology, is a modern reiteration of patriarchal suspicion towards powerful women, depicting the female body-machine as both progressive and potentially destructive.
+
+#### Technological Eroticism and Gender
+
+In *L’Inhumaine*, Claire, the main character, embodies the eroticized technological artifact, a theme also prominent in Fritz Lang’s *Metropolis* (1927). Lang's Maria, a robot, disrupts history, echoing themes from Villiers de l’Isle-Adam’s *L’Eve future* (Future Eve, 1977), where the mechanical body symbolizes the industrial revolution’s intense desirability. Both films portray the female body as a hybrid of machine and organic elements, emphasizing the ambivalence towards technology and its gendered, eroticized depiction.
+
+#### The Inhuman as a Symptom of Modernism
+
+Modernism, with its emphasis on technology, aligns with the Marxist critique of objectification, highlighting the dehumanizing commodification of humans within capitalism. This perspective reveals the inhumanity of reducing people to profit-driven objects, a core tenet of Marxist humanism analyzed in Chapter 1. The analogy between technological cruelty and the seductiveness of the female body-machine illustrates the inhuman as super-human, suggesting a new alliance between technology and the human, producing a multifaceted inhuman world.
+
+#### Art and the Inhuman Imagination
+
+Modernist art places technology at the core of industrial modernity, linking artistic practices to anti-natural structures. The non-functional, seductive nature of art objects reflects the inhuman, as seen in the surrealist concept of ‘bachelor machines’ and Deleuze and Guattari’s ‘bodies without organs’. Art, by stretching the boundaries of representation and connecting to cosmic forces, becomes posthuman, exploring the limits of life and confronting death.
+
+#### Science, Modernism, and the Inhuman
+
+Scientific reason, integral to modernism, embodies inhuman aspects, blending knowledge with military and industrial advancements, leading to destructive innovations. Lyotard’s *The Inhuman* (1989) critiques advanced capitalism’s dehumanizing effects, highlighting a non-rational core within humans that resists technological alienation. This inhuman element offers a site of resistance against dehumanizing forces, suggesting a productive ethical and political potential.
+
+#### Posthuman Context: Transforming the Inhuman
+
+The contemporary era transforms the modernist inhuman into posthuman practices, where technology blurs gender, racial, and species boundaries. Films like *Avatar* (2009) exemplify this shift, moving away from eroticized human-machine interactions to a colder, more integrated sensibility. This shift necessitates rethinking death and dying within the posthuman framework, emphasizing life’s generative forces amidst global crises.
+
+#### Ways of Dying: Political and Ethical Implications
+
+Posthuman politics must address both life and death management, considering the global obscenities of poverty, famine, and environmental destruction. The posthuman condition, extending death horizons to various species, calls for a zoe-centered approach, recognizing the interconnected vulnerabilities of all life forms. This chapter explores contemporary ways of dying, linking them to a political economy that transforms the boundaries between life and death, urging a vital, matter-realist approach to death.
+
+#### The Inhuman and Necropolitics
+
+The inhuman aspects of scientific and technological advancements, including military applications, underscore the necropolitical management of life and death. Contemporary necropolitics involves a global scale of violence, with advanced technologies enabling new forms of warfare and death management. This necessitates a shift from bio-political to necro-political analysis, examining the ethical implications of such inhuman practices.
+
+#### Affirmative Posthuman Theory
+
+Posthuman theory emphasizes the life-death continuum, advocating for an affirmative politics that transforms negative experiences into productive praxis. It proposes a vitalist materialism that respects vulnerability while constructing social horizons of hope. This approach challenges the necro-political aspects of the posthuman condition, seeking to affirm life’s generative potential even amidst destruction.
+
+#### Conclusion: Posthuman Ethics and the Inhuman
+
+The posthuman predicament, with its inhuman practices, demands new ethical frameworks. This chapter argues for a vital, zoe-centered ethics that addresses the complexities of life and death in contemporary contexts. By emphasizing interconnectedness, collective responsibility, and the generative power of life, posthuman theory offers an affirmative response to the challenges of our times.
+
+
+### Posthuman Humanities: Life Beyond Theory
+
+#### Internal Fracture in the Humanities
+The Humanities face profound changes due to the "posthuman condition," which has led to a significant fracture that can't be mended with mere goodwill. This fracture arises from the disruption of humanism and the collapse of anthropocentrism, shifting the very foundations on which the Humanities have traditionally stood.
+
+#### Fallout of Post-Humanism
+The traditional idea of the Human in the Humanities is rooted in the Vitruvian model—Man as a rational animal with language. This model has been challenged by anti-humanists who question the ideas of transcendental reason and rational consciousness, which they argue are self-centered and hierarchical. The critique highlights how humanism has justified exclusion and violence towards racialized, sexualized, and naturalized 'others,' promoting Eurocentric and androcentric ideologies.
+
+#### Emergence of New Critical Epistemologies
+Over the past thirty years, new interdisciplinary fields—such as gender, feminism, ethnicity, cultural studies, post-colonial studies, media studies, and human rights studies—have emerged. These fields question the traditional departmental structures of universities and create what James Chandler terms 'critical disciplinarity,' a condition symptomatic of the posthuman predicament. This shift challenges the existing organization and methodologies of academic research.
+
+#### Post-Anthropocentrism and the Humanities
+Post-anthropocentrism, characterized by non-unitary identities and multiple allegiances, further complicates the role of the Humanities. It requires a reevaluation of research priorities and methodologies, emphasizing radical relationality and cultural diversity. The implosion of species hierarchies and the collapse of the nature-culture dualism have introduced complex systems of interaction that demand new approaches to knowledge production.
+
+#### Technologically Mediated Renewal
+Technological advances offer opportunities for renewing the Humanities. Posthuman subjectivity emphasizes heteronomy and relationality, reshaping humanistic practices. The displacement of anthropocentrism by scientific and technological knowledge creates new global and eco-sophical dimensions. This transformation calls for innovative methodologies and the integration of bio-genetic codes, telecommunication, and information technologies.
+
+#### Challenges and Opportunities
+The shift towards posthumanism and post-anthropocentrism is not without challenges. It questions the epistemological foundations of the Humanities and requires a redefinition of the relationship between the Humanities and the sciences. However, this shift also opens up new areas of research, such as Animal Studies, Ecocriticism, and Disability Studies, which emphasize species egalitarianism and creative models of embodiment.
+
+#### Ethical and Methodological Innovations
+The inhuman aspects of our historical condition, such as wars, mass migration, and technological conflicts, necessitate new interdisciplinary fields to address these issues. Gender, feminist, and post-colonial studies, along with research on the Holocaust, slavery, and genocides, provide innovative methods to handle these challenges. These fields combine critical theory with a healing function, addressing the legacy of pain and trauma.
+
+#### Institutional Crisis and Epistemological Turn
+The institutional crisis of the Humanities is intertwined with political and economic factors. The rise of techno-science, new media, and expert cultures challenges traditional academic structures. Despite these pressures, the interdisciplinary nature of contemporary research highlights the vitality of the Humanities. However, the field needs to develop an epistemology that clarifies its knowledge production processes and addresses the complexities of the posthuman era.
+
+#### The Role of Posthuman Critical Theory
+Posthuman critical theory offers a way forward by emphasizing cartographic accuracy, ethical accountability, transdisciplinarity, and non-linearity. This approach encourages a dynamic and relational understanding of subjectivity, moving beyond traditional humanist and anthropocentric frameworks. By embracing these new methodologies, the Humanities can engage with contemporary scientific and technological advances, ecological sustainability, and the challenges of globalization.
+
+#### Towards a Posthuman Multi-versity
+The future of the university in the posthuman era lies in its ability to adapt to the globalized, technologically mediated world. The concept of the 'multi-versity' integrates traditional academic values with new technological and civic responsibilities. This model envisions the university as a hub of knowledge production and transmission, fostering a community of post-identitarian, posthuman subjects. It emphasizes the need for a university that reflects the diversity and complexity of contemporary society, promoting social justice, sustainability, and intergenerational solidarity.
+
+In conclusion, the Humanities must undergo a significant transformation to remain relevant in the posthuman era. This involves embracing new interdisciplinary approaches, redefining the relationship with the sciences, and fostering a global, technologically integrated academic community. By doing so, the Humanities can contribute to the creation of sustainable and equitable posthuman futures.
+
+### Conclusion: Embracing the Posthuman Condition
+
+#### Human Attachment and the Posthuman Universe
+While many remain attached to the traditional concept of the 'human,' the posthuman condition has undeniably gained traction in our current era, known as the Anthropocene. This concept provokes both excitement and anxiety, influencing cultural representations and intellectual discourse. More importantly, it necessitates a reevaluation of human status, subjectivity, and ethical relationships, impacting the structure and goals of critical thought and the academic field of the Humanities.
+
+#### The Paradoxes of Our Times
+This book began with vignettes illustrating the paradoxes of our technologically mediated world, where advances in genetic recombination and unmanned vehicles coexist with new forms of intolerance and violence. The book explores how humanity is redefined by shared vulnerabilities and the specter of extinction, despite the persistent occurrence of epidemics, wars, and genocides. These conditions compel us to think critically and creatively about our present and future.
+
+#### Posthuman Subjectivity
+The posthuman subject differs from the postmodern and poststructuralist subjects by rejecting anti-foundationalism and linguistic deconstruction. Instead, it embraces a materialist and vitalist perspective, emphasizing embodied and embedded experiences. This subject is relational and multifaceted, drawing from Spinoza, Deleuze, Guattari, feminist theory, and post-colonial theory.
+
+Posthuman thought breaks from the primacy of culture and signification over subject formation, instead placing power dynamics and resistance at the core of subjectivity. The nomadic vision of subjectivity is enhanced by the concept of desire as plenitude and the emphasis on posthuman ethics.
+
+#### Posthuman Ethics
+Becoming a posthuman ethical subject involves embracing relationality and experimenting with new modes of communication and connection. This requires an enlarged sense of community, including non-human entities and environmental interconnections. Posthuman ethics are grounded in collective projects and activities, rejecting individualism and negativity.
+
+This ethical framework is not a set of moral injunctions but a dynamic process aimed at creating collective bonds and a new affective community. It emphasizes the transformation of negative passions into positive ones and the importance of vision and imagination in shaping sustainable futures.
+
+#### Affirmative Politics
+The pursuit of hope and sustainable transformations is a central theme in posthuman thought. This involves resisting negative influences and actively working towards positive futures. Affirmative politics focuses on collective projects, relationality, and the transformation of negative passions into positive ones.
+
+Posthuman subjectivity encourages an affirmative approach to critical theory, moving beyond unitary self-visions and embracing planetary diversity. This perspective integrates science, affectivity, memory, and imagination into a comprehensive understanding of the complex subjects we have become.
+
+#### The Role of the Humanities
+The Humanities must evolve to reflect the posthuman condition, incorporating interdisciplinary approaches and redefining their relationship with science and technology. The future of the university lies in becoming a global 'multi-versity,' integrating traditional academic values with technological and civic responsibilities.
+
+#### Towards a Posthuman Future
+The posthuman turn offers an opportunity to reimagine humanity through creativity and ethical relations, moving beyond fear and vulnerability. It challenges us to embrace new possibilities and address the staggering transformations of our time. This requires collective effort and a willingness to think differently about our place in the world.
+
+#### Conclusion: Embracing Change
+The posthuman condition compels us to adapt and innovate, recognizing the profound changes in human embodiment and subjectivity. It is both exciting and unsettling, demanding that we catch up with our posthuman selves. This new reality is not a dystopian nightmare but a reflection of our collective efforts and imaginings, making it the best of all possible posthuman worlds.
+
+
 
 Roland Barthes
 
