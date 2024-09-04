@@ -1,3 +1,200 @@
+Sammanfattningar 
+
+**Summary of "Chainmaking: A Note on Ornament, Intelligence, and Building" by Robert Kirkbride**
+
+**Introduction and Overview**
+
+Robert Kirkbride's article "Chainmaking: A Note on Ornament, Intelligence, and Building," published in *International Journal of Politics, Culture, and Society* in 2009, explores the intertwined relationship between thinking, making, and architectural design. He reflects on how architectural ornamentation has historically served as a tool for cognitive development, providing metaphors for wisdom and methods for learning. Kirkbride then transitions to discuss the relevance of these ancient concepts in modern architecture, particularly in the context of designing a new university building. This article serves as a prelude to a companion piece titled "Chainbuilding," which delves deeper into the architectural project.
+
+**Part One: Then**
+
+Kirkbride begins by discussing the inherent educational power of architecture, which often goes unnoticed. He shares a personal anecdote from his childhood where he played a memory game that unknowingly mirrored ancient mnemonic techniques, particularly the concept of "chainmaking." This technique involves creating mental chains of associations that help in the retention and retrieval of information. These chains are not only topical but also temporal, allowing individuals to trace the genealogy of ideas back to their origins while adding their interpretations.
+
+He traces the use of chainmaking in history, highlighting its importance in legal and political arenas like the Greek agora, Roman forum, and Venetian Senate. The process of forming these mental chains was seen as foundational to personal identity and intellectual development. Through verbal and visual figures, individuals could forge these chains, linking ideas and concepts through associative imagery and etymological exploration.
+
+Kirkbride references the works of historical figures like Isidore of Seville, Hugh of St. Victor, and Thomas Aquinas, who utilized these mnemonic techniques in their scholarly pursuits. For instance, Aquinas’ *Catena aurea* (Golden Chain) represents a compilation of Gospel interpretations, symbolizing the interlocking nature of celestial bodies and intellectual thought.
+
+The author then delves into the role of architecture in memory training, emphasizing that buildings have historically served as spatial matrices that aid memory retention and cognitive development. The construction of physical spaces was seen as a metaphor for the mind's workings, where architecture provided a model for learning and preserving knowledge. The process of building itself was considered a medium for conveying ideas between the imagination and the built environment, reinforcing the connection between mental and material processes.
+
+Kirkbride explores how traditional architectural ornamentation was not just decorative but functional, serving as mnemonic devices that helped individuals organize and recall information. This concept of ornamentation extended to personal habits and social relations, influencing the design of buildings and cities. He discusses how Renaissance humanists viewed personal style and architectural ornamentation as tools for thought, where the appropriate use of ornamentation was crucial for effective communication and memory retention.
+
+**Part Two: Now**
+
+Transitioning to the present, Kirkbride discusses the implications of these historical concepts in contemporary architectural design. He focuses on a new building project at The New School in New York City, designed to embody modern pedagogical principles. The building’s design incorporates the concept of "thematic chains," a metaphor rooted in ancient mnemonic techniques, which aims to foster a sense of communal identity within the university.
+
+The building is envisioned as a "holding environment" for pedagogical innovation, where students and faculty can engage in a collaborative and interactive learning process. The design integrates both digital and analog elements to enhance wayfinding and pedagogical expressions within the building. This blend of built and virtual environments presents a promising avenue for creating a dynamic academic infrastructure.
+
+Kirkbride also discusses the potential role of internal and external ornamentation in the new building. He highlights The New School’s existing art collection, which includes works by prominent conceptual artists. This collection, dispersed throughout the campus, serves as an educational resource that aligns with the university's mission to engage with social and political issues through art.
+
+However, Kirkbride notes that despite the collection's presence, many students are unaware of its significance. He suggests that making the collection more accessible, perhaps through a dedicated gallery or digitized database, could enhance its educational value and foster a greater sense of pride and purpose among students.
+
+The author then addresses the challenge of incorporating external ornamentation in the new building, particularly given The New School’s architectural history. The university’s flagship building, designed by Joseph Urban in the International Style, is characterized by its lack of ornamentation. Kirkbride reflects on the implications of this design choice, questioning how a building devoid of external ornamentation communicates its identity and memory to future generations.
+
+He suggests that the stark exterior of the Urban building may have been a deliberate choice, reflecting the university's progressive philosophy and desire to forecast the future. However, Kirkbride also considers the possibility that the absence of ornamentation might symbolize a desire to forget or move beyond traditional memories. He raises thought-provoking questions about the role of memory in architecture and whether it is possible to "remember too much" or whether some degree of forgetting is necessary.
+
+**Conclusion**
+
+Kirkbride concludes by pondering what kind of building would best represent The New School’s evolving identity. He explores the tension between remembering and forgetting, considering how architecture can serve as a tool for both. He emphasizes the importance of designing a building that not only reflects the university's past but also forecasts its future, equipping its community with the mental and ethical resources needed to navigate an uncertain world.
+
+The article ultimately underscores the enduring relevance of ancient mnemonic techniques in contemporary architectural design. By drawing on historical concepts like chainmaking, Kirkbride demonstrates how architecture can continue to serve as a powerful medium for cognitive development, personal edification, and the creation of communal identity.
+
+
+**Summary of "Veils and Velocities" by Robert Kirkbride**
+
+**Introduction**
+
+Robert Kirkbride’s article, *Veils and Velocities*, explores the deep connections between fashion, architecture, and the broader built environment. These connections, both tectonic and cultural, span centuries and continue to influence how we interact with the world. Kirkbride delves into the historical significance of ornamentation, clothing, and architecture, particularly in how these elements contribute to the cultivation of personal and shared identity. He draws on examples from the medieval, Renaissance, and contemporary periods to illustrate how architecture and fashion not only shape but also reflect our cognitive processes and societal norms.
+
+The article examines how both fashion and architecture serve as revealing ornaments of the mind, linking the physical with the metaphysical. It argues that artifacts, ranging from clothing to buildings, furnish the imagination with ingredients essential for forming memory and identity. Kirkbride’s analysis extends across several key themes, including decorum, empathy, and the intersection between history and modernity.
+
+**The Relationship Between Clothing, Architecture, and Identity**
+
+Kirkbride opens by highlighting how medieval spiritual meditation envisioned the mind as a walled city, with its buildings metaphorically "clothed" by moral understanding. In Renaissance Florence, philosopher-doctor Marsilio Ficino advised using planetary colors in clothing and architectural ornamentation to aid contemplation and judgment. This emphasis on adornment, both personal and architectural, reveals a deep etymological link between the terms *habit* (abitudine), *clothing* (abito), and *buildings* (abitazione). These terms illustrate how the physical environment, our habits, and the spaces we inhabit are extensions of our mental and moral states.
+
+In historical and contemporary contexts, artifacts and accessories—ranging from clothing to architecture—play a key role in shaping memory and identity. Kirkbride emphasizes that our personal possessions, like our clothing or living spaces, are outward manifestations of our internal selves. These objects serve as cultural markers, signaling our place in society and contributing to our sense of belonging. For example, Renaissance humanists viewed ornamentation not as mere decoration but as a reflection of social standing, intellectual capability, and moral character. The Renaissance notion of *abito* captured this dynamic, where physical appearance and behavior influenced not only how individuals perceived themselves but also how they were perceived by society.
+
+**Ornamentation and Decorum in Historical Contexts**
+
+Kirkbride argues that ornamentation, far from being frivolous, carries deep meaning and significance. He references Renaissance architect Leon Battista Alberti, who emphasized *ornatus* (ornament) as essential for composing surfaces in architecture. *Ornatus* for the Romans meant distinction and excellence, not merely decoration but also equipment or accoutrements for challenges, such as a soldier's armor. Thus, ornament was historically seen as a functional and aesthetic element, intertwined with both practical use and moral virtue.
+
+Fashion and architecture, both forms of ornamentation, help individuals navigate societal expectations, fitting in or standing out as required. Through historical examples, Kirkbride shows how ornamentation provided a way for people to communicate status, talent, and intention. For instance, in Renaissance courts, swordsmanship and dance were viewed as physical gestures of ornamentation, indicating one's social standing and intellect.
+
+Furthermore, Kirkbride touches on how ornamentation was utilized for cognitive training in the past. In pedagogical contexts, teachers would draw out a student’s innate talents, refining them through the use of symbolic tools and architectural metaphors. The *studiolo* of the Montefeltro dukes offers a vivid example: a private study adorned with symbolic decorations, designed to inspire intellectual contemplation. The art of rhetoric, architecture, and the visual arts were all tied to this system of mental and moral edification.
+
+**Alberti’s Veil and the Persuasive Power of Empathy**
+
+A significant portion of Kirkbride's article focuses on Leon Battista Alberti’s concept of the *velo* (veil), a grid used in perspective drawing to assist artists in translating three-dimensional scenes into two-dimensional representations. Far from being a simple mechanical tool, the veil helped create a seamless flow between the real world and its artistic representation. Alberti intended the *velo* to evoke empathy in the viewer, bridging the gap between the artificial space of the painting and the real space of the observer.
+
+Kirkbride contrasts the original empathetic purpose of the veil with its modern misinterpretation as a tool for objectivity or detached observation. Alberti’s veil, he argues, was not meant to distance the artist from the subject but to engage the viewer emotionally, allowing them to enter the painting’s narrative. This emotional engagement was critical for Renaissance artists and architects, who aimed to blur the boundaries between the physical world and its artistic or architectural representation.
+
+This emphasis on empathy extends beyond painting to architecture, where proportional harmonies were believed to underpin all phenomena. Artists and architects like Alberti sought to embody these harmonies through design, creating structures that resonated with both the intellect and the emotions of their viewers.
+
+**The Psychoanalytic Approach to History and Design**
+
+Kirkbride also discusses how modern interpretations of historical artifacts have been influenced by psychoanalytic methods, particularly those of Sigmund Freud. He notes that art historians such as Aby Warburg and Erwin Panofsky used psychoanalytic techniques to delve into the hidden meanings of art and architecture. However, Kirkbride critiques the limitations of this approach, particularly its tendency toward subjectivity. He advocates for a more holistic understanding of historical artifacts that considers not just their visual impact but also their multisensory characteristics and cultural contexts.
+
+This shift in perspective allows historians and designers to cultivate empathy for past cultures and individuals, acknowledging both the differences and similarities between historical and contemporary contexts. By placing themselves in the shoes of those who lived centuries ago, researchers can gain a deeper understanding of how artifacts were used and what they signified.
+
+**Applications of Historical Research in Contemporary Design**
+
+Kirkbride transitions from historical analysis to contemporary design practice, drawing on examples from his own work. He recounts a project in Pennsylvania where he applied historical research methods to land-planning, integrating sustainable stormwater management techniques with the natural landscape. His approach, inspired by Renaissance methods of site analysis advocated by Alberti and Vitruvius, resulted in a more efficient and environmentally friendly design process.
+
+Similarly, Kirkbride describes a rolling staircase project in Torino, Italy, where his collaboration with local artisans underscored the importance of empathy and respect for the materials and processes of fabrication. By working closely with metalworkers and adapting the timeline of production to suit the artisan’s needs, Kirkbride demonstrates how understanding the human element in design can lead to more sustainable and meaningful outcomes.
+
+He extends this argument to product design, discussing his work on hand-welded furniture in New York City. These projects highlight the potential for merging traditional craftsmanship with modern design techniques, creating artifacts that blend local and global influences.
+
+**Conclusion: Ornamentation as a Critical Design Practice**
+
+Kirkbride concludes by advocating for a reevaluation of ornamentation in both fashion and architecture. Rather than dismissing ornament as superficial, he argues that it plays a crucial role in fostering empathy and understanding between individuals and their environments. Ornamentation, when approached thoughtfully, enhances the functional and poetic aspects of design, a concept encapsulated by Tucker Viemeister’s term *beautility*—the merging of beauty and utility.
+
+For Kirkbride, design is a process of close reading—of histories, contexts, and users. This approach fosters empathy and opens up possibilities for both personal and collective transformation. By embracing the surface of things, designers can uncover deeper meanings and create spaces that resonate with both the mind and the body.
+
+Ultimately, *Veils and Velocities* calls for a more nuanced understanding of the relationship between ornament, identity, and design. Through historical analysis and contemporary examples, Kirkbride demonstrates how ornamentation, far from being mere decoration, serves as a vital tool for both personal and societal expression.
+
+
+**Summary of *Beloved* by Toni Morrison (Excerpt)**
+
+In this excerpt from *Beloved*, Toni Morrison explores the themes of memory, trauma, and survival through the experiences of two main characters, Denver and Paul D.
+
+---
+
+**Denver and Beloved’s Encounter by the Water**
+The passage begins with Denver approaching Beloved, who is standing near the water. Denver is seeking forgiveness or a sign of acknowledgment from Beloved. As she steps into the water to join her, Denver is initially captivated by Beloved’s rapt attention toward a pair of turtles mating on the shore. This scene is rich in symbolism, with the mating turtles possibly representing connection, life cycles, and the primal forces of nature. The sensual imagery of the turtles’ “pat pat pat of their touching heads” reflects a natural harmony, but Denver’s focus on Beloved highlights her longing for reconciliation and connection. However, Beloved remains somewhat distant, dropping her skirt into the water as if closing herself off again.
+
+---
+
+**Paul D’s Internal Struggles and the Georgia Prison Camp**
+The narrative then shifts dramatically to Paul D's painful recollections of his time in a Georgia prison camp. His journey of being sold to a cruel master, Brandywine, and attempting to kill him leads to Paul D being shackled and imprisoned in horrifying conditions.
+
+Paul D's trauma begins to manifest physically and psychologically, starting as a trembling inside him, reflecting his internalized suffering and long-repressed emotions. Morrison's vivid description of Paul D's trembling, which "felt like rippling," symbolizes his emotional fragmentation. As he is transported further south, the thawing of his "frozen" blood represents the resurfacing of his past traumas.
+
+The prison camp is described in dehumanizing terms, where Paul D and forty-five other Black men are caged in trenches barely fit for animals. The daily routine in the camp is grueling, with Paul D and the others chained together and forced to work in unbearable conditions. The labor itself, breaking rocks with sledgehammers, becomes an outlet for the prisoners' rage and sorrow, as they sing songs to mask their pain and direct their anger toward symbolic targets like “Life” and “Mr. Death.” These songs are not just expressions of resistance but also a way for the men to reclaim their identities in the face of extreme dehumanization.
+
+Morrison’s depiction of Paul D’s experience in the prison camp highlights the brutal realities of slavery and its aftereffects. The chain gang’s solidarity becomes essential for survival, both physically and emotionally. Paul D and the others communicate through the chain, a literal and metaphorical bond that both traps and connects them. Their unspoken understanding and reliance on Hi Man, who gives the daily commands, show the strength of communal support in the face of oppression.
+
+---
+
+**Escape During the Storm**
+A turning point comes when torrential rains flood the prison trenches, forcing the prisoners to make a desperate escape. The flood becomes a metaphor for both destruction and liberation. The rain, which initially seems to trap them further, ironically provides the cover they need to break free. Paul D and the others use the chain to communicate as they navigate through the mud and darkness, their movements synchronized by instinct and mutual trust.
+
+The escape through the mud, with the chain linking them together, emphasizes the collective struggle for freedom. Despite the chaos and danger, the men’s reliance on each other ensures that none of them is left behind. This moment underscores the theme of shared humanity and resilience in the face of unimaginable suffering.
+
+---
+
+**The Encounter with the Cherokee**
+After escaping, the men seek refuge in a Cherokee encampment. Here, Paul D and the others encounter the Cherokee, who provide them with food and tools to cut off their chains. This brief interaction between the escaped slaves and the Cherokee, who are also facing their own decimation and displacement, reflects Morrison's broader exploration of different marginalized groups and their struggles for survival in a hostile world.
+
+The Cherokee’s quiet dignity and their willingness to help the prisoners despite their own suffering offer a moment of hope and solidarity. The axes they provide symbolize both physical and metaphorical liberation, allowing the men to finally sever the chains that have bound them for so long.
+
+---
+
+**Paul D’s Journey North**
+After staying with the Cherokee for several weeks, the men begin to scatter. Paul D, now alone, continues his journey north in search of freedom. Guided by a Cherokee man's cryptic advice to follow the "tree flowers," Paul D embarks on a symbolic journey through the blossoming trees, which serve as markers of hope and renewal. As he travels from dogwood to peach blossoms and eventually to apple trees, Paul D is metaphorically following the seasons of rebirth and regeneration.
+
+This section of the narrative reflects the deep connection between nature and Paul D’s journey toward self-discovery and healing. The blossoming trees represent both the passage of time and the promise of a new life, as Paul D struggles to leave behind the horrors of his past and find a sense of belonging in the “Free North.”
+
+---
+
+**Paul D’s Arrival in Delaware**
+Paul D’s journey eventually leads him to Delaware, where he is taken in by a woman who pretends he is her nephew to protect him. This brief respite offers Paul D a moment of physical rest and emotional catharsis, as he weeps in her bed, overwhelmed by the enormity of his experiences.
+
+Despite this moment of relief, Paul D is still haunted by his memories. Over time, he learns to compartmentalize his traumatic past, symbolized by his habit of locking away painful memories in a “tobacco tin” in his chest. This metaphor reflects Paul D's struggle to repress his emotions and avoid confronting the full extent of his suffering. By the time he reaches Sethe’s home at 124, he has become adept at sealing off his pain, but this emotional repression also prevents him from fully healing.
+
+---
+
+**Conclusion**
+
+In this excerpt from *Beloved*, Toni Morrison masterfully weaves together themes of trauma, survival, and memory. Through the contrasting experiences of Denver and Paul D, Morrison explores the ways in which individuals cope with the lasting effects of slavery and oppression. Denver’s longing for connection and Paul D’s internalized suffering highlight the profound emotional scars left by slavery, while their respective journeys reflect the struggle to reclaim agency and identity in the aftermath of unimaginable trauma.
+
+
+In **Chapter Sixteen** of *Designing Minds*, the author explores the concept of good design, particularly in the context of ecological sustainability. The chapter argues that well-designed human systems and artifacts should harmonize with the natural world, enhancing larger ecological patterns rather than disrupting them. The author asserts that bad design not only causes social and environmental damage but also results from a failure to consider the broader, long-term impacts of human activities.
+
+### Principles of Good Design
+Good design, according to the text, begins with understanding the specific context of a place. Wendell Berry's approach to design emphasizes asking what nature will allow and support in a given environment. The core principles of good design include:
+- **Right scale**: The design must fit its context.
+- **Simplicity**: Avoiding unnecessary complexity.
+- **Efficient use of resources**: Maximizing resource utilization.
+- **Durability, redundancy, and resilience**: Designing with longevity, flexibility, and adaptability in mind.
+
+When these principles are ignored, particularly in industrial civilizations, the result is often environmental degradation, resource depletion, and social inequality. Industrial civilization is critiqued as an example of bad design, as it was not thoughtfully planned but rather evolved haphazardly. It prioritizes short-term gains over long-term sustainability, leading to widespread pollution, habitat destruction, and social injustice.
+
+### Ecological Design and its Importance
+The chapter introduces the concept of **ecological design**, which is defined as the integration of human purposes with the patterns and flows of the natural world. Ecological design competence involves maximizing resource efficiency, recycling waste, and utilizing nature’s services in intelligent ways. It focuses on making systems that are in harmony with the environment, considering the complex relationships between living organisms, energy flows, and human activities.
+
+David Wann’s notion of “biologic” is highlighted, stressing that good design must incorporate an understanding of how nature works. This biological intelligence should inform the way we think, design, build, and live. Ecological design applies to all systems that involve energy and material use, including farms, houses, communities, transportation systems, and energy policies.
+
+### Failure of Industrial Design
+The failure of design in industrial societies is linked to several factors:
+1. **Cheap energy and resources**: Early industrial expansion was driven by the availability of cheap energy and abundant land, leading to extensive, wasteful economies rather than intensive, resource-efficient ones.
+2. **Greed and individualism**: Communities became disconnected, as self-interest undermined collective well-being. The example of the Amish, who prioritize community over individual gain, contrasts with the individualistic mindset of modern American cities.
+3. **Poorly equipped minds**: Good design requires understanding complex systems, patterns, and ecological processes. Industrial societies tend to focus on short-term goals and lack the broad ecological knowledge necessary for sustainable design.
+
+### The Role of Ecological Design in Addressing Modern Problems
+Ecological design offers solutions that not only solve one problem at a time but also create positive ripple effects, or **synergies**, that benefit communities and ecosystems. The chapter highlights several examples of ecological design, including **John Todd’s "living machines"**, which purify wastewater through biological systems rather than relying on energy-intensive, pollutive technologies. These living machines use plants, animals, sunlight, and natural processes to clean water, offering an alternative to conventional sewage treatment that is both efficient and environmentally friendly.
+
+Ecological design can also apply to public policies and governance. The author emphasizes that well-designed policies should aim to create automatic outcomes without the need for constant intervention. For example, rather than simply mandating emissions reductions, policies should focus on creating systems—like better public transit or integrating agriculture into urban spaces—that naturally lead to less environmental harm.
+
+### Ecological Design and Education
+The chapter asserts that the liberal arts, which traditionally encompass a broad range of disciplines, should incorporate **ecological design arts**. These arts promote the ability to understand and work with patterns that connect human systems with the natural world. However, contemporary liberal arts education is criticized for becoming too abstract and disconnected from practical, real-world applications. To rectify this, the author suggests that ecological design education should focus on:
+- **Systems thinking**: Understanding how different systems (natural, social, economic) interact and influence one another.
+- **Practical competence**: Combining theoretical knowledge with hands-on experience in solving real-world problems.
+- **Ethical awareness**: Encouraging students to think critically about the long-term consequences of their actions and decisions.
+
+### Integrating Ecological Design into Institutions
+The author advocates for institutions to become laboratories for ecological design. This could involve transforming campuses into models of sustainability by redesigning resource flows—such as food, energy, and waste—based on ecological principles. Alternatively, institutions could establish separate **ecological design arts centers** that focus on developing and implementing sustainable design projects. These centers would promote ecological thinking, provide practical experience, and encourage interdisciplinary collaboration.
+
+Examples of possible projects include:
+- Designing a building with no external energy inputs.
+- Creating bioregional directories of sustainable building materials.
+- Restoring degraded ecosystems.
+- Designing low-input sustainable farming systems.
+
+### Conclusion
+The chapter concludes by emphasizing the importance of ecological design for the future of both education and society. To foster a culture of sustainability, individuals must be equipped with the knowledge and skills to integrate ecological principles into their daily lives and work. By encouraging systems thinking, practical competence, and ethical responsibility, ecological design can help address the pressing environmental and social challenges of our time.
+
+The author also suggests that the **ecological design arts** can help reconnect people with their local environments, fostering a deeper understanding of and respect for nature. This, in turn, can lead to more sustainable communities that are resilient, efficient, and capable of adapting to the challenges of the future.
+
+
 ### Overview of Gödel, Escher, Bach: An Eternal Golden Braid
 
 #### Part I: GEB
