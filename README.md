@@ -1,3 +1,164 @@
+## Gaston Bachelard’s *The Poetics of Space* 
+
+Gaston Bachelard’s *The Poetics of Space* is a profound exploration of how intimate spaces shape our perceptions, memories, and dreams. In the chapters discussing metaphors and objects like **drawers, chests, and wardrobes**, Bachelard delves into how such seemingly mundane objects evoke deep psychological and poetic resonance.
+
+### Metaphor vs. Image
+Bachelard begins by distinguishing between metaphor and image. Metaphors, he argues, are superficial and fleeting expressions that do not possess deep phenomenological value. They are often rhetorical tools, used once and discarded. Images, however, are much more significant in Bachelard’s view. An image arises from the "absolute imagination" and has a lasting impact. It resonates with the speaker and the listener alike, becoming a phenomenon of being rather than just a figure of speech. For Bachelard, images possess a reality and presence that metaphors lack.
+
+He criticizes **Bergson** for over-relying on metaphors such as the **drawer**, which Bergson uses to deride the compartmentalization of thought and memory. Bergson sees concepts as neatly stored in "drawers," which leads to lifeless, rigid thinking. Bachelard, however, argues that this metaphor is overused and mechanized in its repetition. Instead of fostering new insights, such metaphors, according to Bachelard, become stale and lack imaginative depth.
+
+### Drawers, Chests, and Wardrobes: Symbols of Intimacy
+Transitioning from the critique of metaphor, Bachelard delves into the symbolic power of **drawers, chests, and wardrobes**. These objects, far from being mere storage spaces, serve as metaphors for the soul's intimacy. They are the places where people hide their most precious items, and by extension, their most intimate thoughts and memories. He writes, "Wardrobes with their shelves, desks with their drawers, and chests with their false bottoms are veritable organs of the secret psychological life." The objects provide a framework for our inner lives, offering models of intimacy, secrecy, and containment.
+
+In Bachelard’s view, wardrobes are not just furniture; they are repositories of memory and identity. When we interact with a wardrobe, we engage with our past. He writes of how lavender placed in the wardrobe’s sheets introduces a sense of *dureé*—the flow of time—and infuses the space with memory and a connection to the changing seasons.
+
+The wardrobe, he says, is not opened every day, which makes it a symbol of something deeply private and significant. It guards the order of the house and symbolizes the preservation of family history and personal identity. Bachelard’s reference to **Charles Péguy**’s line, "Aux rayons de mémoire et aux temples de l’armoire" (On the shelves of memory and in the temples of the wardrobe), underscores how such objects become sanctuaries for our most sacred memories.
+
+### Caskets and Secrets
+Bachelard expands this idea by examining **chests and caskets**, which he views as even more intimate objects. These are not just places for keeping objects; they are containers of secrets. The act of locking something away in a chest or casket is akin to the act of hiding a part of oneself. This resonates with the idea that intimacy always hides from view, and Bachelard observes that this form of concealment is not an act of repression but rather a preservation of something deeply personal.
+
+In discussing caskets, Bachelard presents the idea that opening a casket reveals a new dimension of experience. When the casket is closed, it belongs to the external world. When opened, it releases a sense of intimacy that transcends the mere cubic dimensions of the object. The casket becomes a place where past, present, and future converge, holding within it a wealth of memories and potential.
+
+### The Poetry of Locks and Keys
+Bachelard’s musings on **locks and keys** add another layer to his analysis of intimacy. Locks are not merely mechanical devices for securing objects; they are psychological thresholds. The lock, with its ornamental coverings and hidden mechanisms, symbolizes the complexity of human intimacy and the desire to safeguard one's innermost self.
+
+Bachelard references **Rilke**, who, in his writings, expresses a fascination with locks, seeing them as symbolic of the intricate barriers that guard intimacy. The act of unlocking something is not just a physical action but a poetic and psychological one, representing the unveiling of hidden depths. For Bachelard, this fascination with locks and keys speaks to a broader human tendency to hide aspects of oneself while also seeking to uncover the hidden depths of others.
+
+### Conclusion: The Infinite Intimacy of Closed Spaces
+Ultimately, Bachelard’s exploration of drawers, chests, and wardrobes leads to a deeper understanding of the **poetics of space**. These objects are not merely functional; they are spaces where imagination, memory, and intimacy converge. They allow us to preserve and protect parts of ourselves, while also offering the possibility of revelation. Through the act of opening and closing these objects, we engage with the deepest parts of our psyches, encountering memories and emotions that shape our sense of self.
+
+For Bachelard, closed spaces like wardrobes, caskets, and drawers hold a paradoxical quality—they are both containers and gateways. They contain our most private selves, yet they also offer a pathway to a deeper understanding of who we are. As he writes, "A casket is a dungeon for objects. And here is a dreamer who feels that he shares the dungeon of its secret."
+
+In Bachelard’s phenomenology, then, space is not merely a backdrop for life; it is a living, breathing entity that interacts with our most intimate selves. Objects like wardrobes and chests are imbued with a poetic quality that transcends their physical form, allowing them to become symbols of the human experience of secrecy, intimacy, and memory. Through these objects, Bachelard invites us to reflect on the ways in which space shapes our inner worlds, preserving the past and offering endless possibilities for dreaming and discovery.
+**Summary of *Timbuktu* by Paul Auster**
+
+Paul Auster’s *Timbuktu* follows Mr. Bones, a loyal dog, and his master Willy G. Christmas, a homeless poet grappling with his impending death. Through a dreamlike narrative and introspective dialogue, the novel explores themes of mortality, memory, and loyalty. This section captures the final days of Willy’s life as he faces the harsh reality of his deteriorating health and contemplates his legacy.
+
+### Dream and Reality
+In this excerpt, Mr. Bones dreams of Willy’s death and their shared journey to Baltimore. The dream begins with Willy waking from sleep, seemingly improving, and talking continuously, as though life’s unresolved topics flood his mind in a chaotic stream of consciousness. Willy muses on various subjects, including his mother, the women he’s been with, his literary failures, and even odd bits like the rice consumption habits of the Japanese. He slips into poetic meditations, including a surreal poem addressed to an invisible higher power. Willy’s thoughts reveal his bitterness, regrets, and complex relationship with life, but he also displays humor, mocking both himself and the world around him.
+
+The dream blurs the line between reality and imagination as Mr. Bones listens to Willy, unsure if the events are real or not. As police approach them, Willy tells Mr. Bones to escape, signaling the end of their time together.
+
+### Willy’s Decline and Mr. Bones’ Reflection
+Willy’s illness has progressed significantly by this point. His rambling reveals his reflections on a life filled with missed opportunities. He mentions a former college roommate, Paul, who once promised to help publish Willy’s poetry but never received the manuscript. This regret symbolizes Willy’s broader failure to fulfill his potential as a writer. He dismisses the notebooks stored in a Greyhound locker, declaring them worthless, indicative of his resignation to a life filled with unattained dreams.
+
+As Willy lies dying, Mr. Bones becomes increasingly aware of his helplessness. Willy, in a sudden emotional moment, regrets not teaching Mr. Bones how to read, lamenting that the dog will face the future without essential skills to survive in a world that is unforgiving to strays.
+
+### The Police and Mr. Bones’ Escape
+The dream intensifies when the police arrive, forcing Willy to send Mr. Bones away. In the dream, Mr. Bones transforms into a fly, symbolizing his desire to stay close to Willy while being powerless to change anything. As the fly, Mr. Bones follows Willy to the hospital, where Willy is taken in for treatment. The transformation into a fly allows Mr. Bones to witness Willy’s final moments in a detached manner, as he hovers above Willy's hospital bed, watching helplessly.
+
+The dream mirrors the real world in its clarity, as every gesture, word, and action feels true to life. However, as Willy lies in the hospital, Mr. Bones’ fly persona gives him a unique perspective on the scene, blending both reality and fantasy in the portrayal of Willy’s death.
+
+### Willy’s Death
+Despite Mr. Bones’ hope for a miraculous recovery, the dream soon reveals Willy’s inevitable death. Mrs. Swanson, an old teacher of Willy’s, appears at his bedside, symbolizing a connection to Willy’s past and a source of comfort in his final moments. Her presence reinforces the theme of missed opportunities, as Willy reflects on how he has made a “mess of things.” Yet, his interaction with Mrs. Swanson is calm and reflective, suggesting that he has come to terms with his fate.
+
+Willy dies peacefully, without the physical agony that had defined his illness in previous days. His death is marked by a slow, imperceptible fading, a metaphor for how life itself gradually slips away. The dream captures this moment poignantly, with Mr. Bones, in his fly form, witnessing the serene passing of his beloved master.
+
+### The Dream Within a Dream
+After Willy’s death, the dream takes a surreal turn as Mr. Bones finds himself back on the corner where the police first approached them. He realizes that he has experienced a dream within a dream, a layered reflection on his own fears and uncertainties about life after Willy. Mr. Bones is left alone, grappling with his bleak future as a stray, facing a world without the guidance and companionship of his master.
+
+### The Blurring of Dream and Reality
+The novel emphasizes the thin line between dream and reality, particularly as Mr. Bones struggles to differentiate between the two. Even after waking from the dream, he notices the strange similarity between Willy’s real-life words and those spoken in the dream. This mirroring suggests a deeper connection between their shared experiences, as if the dream has anticipated the final moments of Willy’s life.
+
+Willy’s rambling monologue resumes, touching on many of the same topics from the dream, such as his mother and his past relationships. As Mr. Bones listens, he realizes that these are Willy’s last words, bringing the narrative full circle as the dog braces for the end of their time together.
+
+### Themes of Loyalty and Mortality
+At its core, *Timbuktu* is a meditation on loyalty, love, and the inevitability of death. Mr. Bones represents unwavering loyalty, even in the face of uncertainty. His journey with Willy is both physical and emotional, as he stands by his master until the very end. Willy’s death forces Mr. Bones to confront his own mortality, as he is left to navigate the world alone.
+
+Willy’s regret over not teaching Mr. Bones to read speaks to the limitations of their relationship, as Willy recognizes that he has not adequately prepared Mr. Bones for life without him. The novel thus raises questions about the responsibilities we have to those we love, and the ways in which we fail them despite our best intentions.
+
+### Conclusion
+Paul Auster’s *Timbuktu* is a poignant exploration of the human condition, filtered through the perspective of a loyal dog. The blending of dream and reality, the introspective dialogue, and the focus on mortality make this novel a deeply reflective piece of literature. Through Mr. Bones’ journey, readers are invited to consider the fragility of life, the inevitability of death, and the enduring power of loyalty and love.
+
+In "Twenty Questions (Posed by Poems)" by D. McClatchy, the author explores the intimate relationship between poetry, dreams, and the subconscious. Through personal anecdotes, literary analysis, and reflections on significant poets and their works, McClatchy delves into the parallels between poetry and the dream world, where meaning is often elusive, mysterious, and deeply introspective.
+
+### The Dream-Poetry Analogy
+
+McClatchy introduces the central analogy by questioning whether a poem is more akin to a dream or a puzzle. He suggests that at the initial encounter, a strong poem, much like a dream, appears enigmatic, filled with meanings that are both offered and withheld. This mirrors the experience of poets as well, who, when crafting their work, often begin with an instinctual or dreamlike process, only later shaping it into something more structured—more like a puzzle, with carefully constructed solutions. However, he notes that truly great poems, like those of Emily Dickinson or Elizabeth Bishop, retain a dreamlike quality even after their intricate construction, remaining open to multiple interpretations, never fully "solved."
+
+### Personal Dream Experiences
+
+McClatchy shares a series of personal dream experiences that intertwine with his encounters with famous literary figures. He recalls a vivid dream where he found himself in a classroom, realizing he hadn't attended an English course he had signed up for. The dream reflects his subconscious anxiety about knowledge and preparedness, feelings that are mirrored in the process of engaging with complex poetry. The mention of doing a crossword puzzle each morning symbolizes his attraction to structure and the reassurance that every question has an answer—a desire that contrasts with the open-ended nature of poems and dreams.
+
+In another dream, McClatchy recalls the poet Ben Jonson, although much of the dream’s substance is lost to time, emphasizing the ephemeral nature of memory and experience. This serves as a metaphor for the poetic process itself, where fleeting moments of inspiration must be captured and transformed before they fade away.
+
+### Anne Sexton: A Personal and Poetic Connection
+
+McClatchy’s recounting of his relationship with Anne Sexton offers a deeper insight into how personal experiences and relationships inform his understanding of poetry. He describes their friendship, marked by her mental instability and eventual suicide, and how a dream about her death coincided eerily with reality. In this dream, he saw a news report about Sexton’s death, with an image of her sitting with a child on her lap, whom he recognized as a younger version of himself. The dream's precognitive quality haunts him, as it foreshadows her actual suicide, reinforcing the idea that dreams can sometimes offer unsettling glimpses into our subconscious fears and unresolved emotions.
+
+McClatchy’s reflections on Sexton’s life and death lead him to ponder the relationship between poetry, dreams, and guilt. His failure to call her before her suicide parallels his broader reflection on the missed opportunities and unspoken thoughts that permeate both personal relationships and the writing process. The dream becomes a symbol of his guilt, a reminder of how poetry often grapples with themes of loss, absence, and the inexpressible.
+
+### The Role of Dreams in Poetry
+
+McClatchy draws connections between dreams and poetry by examining the works of various poets, including James Merrill, John Hollander, and Elizabeth Bishop. He suggests that many poems resemble dreams in their structure and progression, moving through stages of meaning and emotion much like the stages of sleep. He refers to the REM state, the phase of sleep associated with vivid dreams, as analogous to the internal storm of emotions and sensations found in powerful poetry. This inward movement, followed by a release of fear or tension, is a hallmark of some of the greatest poems, such as Wordsworth’s “Tintern Abbey” or T.S. Eliot’s *The Waste Land*.
+
+### Three Dreams About Elizabeth Bishop
+
+In one of the most striking sections of the essay, McClatchy recounts three dreams about the poet Elizabeth Bishop. Each dream, though different in its content, captures aspects of Bishop's poetic sensibility and McClatchy’s own reflections on her work. In the first dream, Bishop’s funeral is delayed for a year, and she lies in an open casket in the State Capitol rotunda. The surreal scene unfolds as people from her life arrive, and Bishop herself begins to speak, though slowly and with great effort, as if her words are bubbles rising to the surface.
+
+In the second dream, Bishop appears in a church, where a minister delivers a strange sermon about an oryx, a symbol that feels dreamlike in its obscurity and mythical quality. The imagery in this dream is rich with symbols that blend the sacred and the everyday, much like Bishop’s own poetry, which often juxtaposes the mundane with the profound.
+
+The third dream is more abstract, involving nature imagery such as wind chimes and bottlebrush trees. In this dream, Bishop becomes more distant, her presence fading as McClatchy reflects on the larger questions of life and love. The progression of the three dreams mirrors McClatchy’s growing distance from Bishop, both as a literary figure and as a dream symbol, culminating in a meditation on the passage of time and the nature of memory.
+
+### The Intersection of Dreams, Poetry, and Death
+
+Throughout the essay, McClatchy returns to the idea that dreams, poetry, and death are intricately connected. He suggests that poems about love are often also about death, as both subjects deal with the profound and the unknowable. This idea is exemplified in his analysis of Bishop’s work, where the poet’s reflections on loss and longing often carry an undercurrent of mortality.
+
+McClatchy also touches on the theme of precognition in dreams, as seen in his experience with Anne Sexton’s suicide. He wonders whether dreams can sometimes offer a glimpse into the future, much like how poetry can capture fleeting moments of truth that resonate beyond the immediate present.
+
+### Conclusion: Poetry as a Dreamlike Experience
+
+In *Twenty Questions (Posed by Poems)*, McClatchy explores the parallels between dreams and poetry, suggesting that both are deeply rooted in the subconscious and share a similar structure of meaning-making. Through personal anecdotes, literary analysis, and reflections on his relationships with poets like Anne Sexton and Elizabeth Bishop, McClatchy illustrates how poetry, like dreams, can reveal hidden truths and unresolved emotions. Both are processes of discovery, where meaning is often elusive, but the journey toward understanding is itself a transformative experience.
+
+Ultimately, McClatchy’s essay highlights the complexity and depth of poetry, urging readers to embrace its dreamlike qualities and to approach it not as a puzzle to be solved, but as an ongoing, unfolding experience of the self.
+
+Leila Taylor’s *Darkly: Black History and America’s Gothic Soul* explores the interwoven nature of the gothic aesthetic and Black history, particularly in the American context. Taylor expands the concept of "gothic" beyond its traditional associations with European architecture, literature, and music, emphasizing that its themes—darkness, decay, death, and haunting—resonate deeply within American culture, particularly through the lens of the African American experience.
+
+### Defining the Gothic
+
+Taylor begins by discussing the broad and varied definitions of "gothic." It encompasses much more than the well-known goth subculture tied to music, with roots extending to the fifth-century Visigoths and Ostrogoths, medieval architecture, romantic literature, and even modern fashion. The gothic, as Taylor argues, is a mode or sensibility rather than a fixed style, which opens up a broader cultural reading, including a specifically American version of gothic horror. In the United States, this mode is uniquely tied to the country's history of slavery, oppression, and racial violence, which Taylor frames as the foundation for a homegrown version of the gothic genre: the American gothic.
+
+### American Gothic: The Haunted Legacy of Slavery
+
+Taylor anchors her exploration of American gothic in the context of slavery, beginning with the oral history of Fountain Hughes, a man born into slavery in Charlottesville, Virginia, in 1848. His account, recorded in 1949, serves as a haunting reminder of how slavery and its legacy are not as distant as they may seem, with only a few generations separating Taylor from Hughes’ lived experience of being enslaved.
+
+The concept of horror, Taylor suggests, is essential to understanding the American experience, particularly for Black Americans. She cites Ann Radcliffe's definition of horror as the "unambiguous display of atrocity," which applies aptly to the terror of the Middle Passage and the broader history of slavery in America. This enduring horror is reflected in the complex relationship Black Americans have with the gothic mode, with their history marked by displacement, dehumanization, and the constant tension between belonging and alienation.
+
+### The Gothic Journey: From Slave Ships to Haunted Spaces
+
+Taylor draws parallels between the gothic trope of the journey and the forced displacement of enslaved Africans. In classic gothic tales, characters embark on journeys that take them through strange, often dangerous, landscapes—much like the harrowing journey of enslaved people across the Atlantic during the Middle Passage. This journey, Taylor argues, is central to Black history and to the American gothic. The Middle Passage, with its horrors and liminality, was a space of displacement, between cultures, histories, and identities, and it left an indelible mark on the psyche of those who survived.
+
+Taylor connects this idea to the concept of limbo, both as a state of waiting and as a form of imprisonment. For enslaved people, the Middle Passage represented a kind of living death, a dislocation from everything familiar and an entry into a new world of oppression. This idea of being caught between worlds, neither fully alive nor fully dead, mirrors the gothic themes of ghosts and hauntings.
+
+### Memorializing the Unmemorialized: The Ark of Return
+
+In her discussion of the memorialization of slavery, Taylor examines *The Ark of Return*, a memorial at the United Nations in New York, designed by architect Rodney Leon. The sculpture, which features a black figure lying in a tomb-like structure, evokes the physical suffering and the historical erasure of those who died during the Middle Passage. Taylor emphasizes that the memorial represents both a place of remembrance and a site of paralysis, where the figure is caught between life and death, unable to rise. This image of being trapped in memoriam reflects the ongoing struggle to adequately memorialize the horrors of slavery, a trauma that continues to haunt America.
+
+Taylor also considers how this lack of proper memorialization contributes to a sense of unresolved history. The Middle Passage and the deaths that occurred at sea are not commemorated in the same way as other historical tragedies. These lost lives, nameless and forgotten, remain as "unquiet ghosts," trapped in the depths of the ocean. Taylor asks, "Can the sea be haunted?"—a provocative question that highlights how the immensity of the ocean and the countless lives lost during the slave trade represent a form of unmarked, amorphous tragedy.
+
+### Southern Gothic: The Heart of America’s Darkness
+
+Shifting from the sea to the land, Taylor explores the Southern Gothic as a key component of America’s gothic soul. The Southern Gothic is deeply tied to the history of slavery and the post-Civil War South, where the decay of old traditions and the oppressive weight of racism provide fertile ground for gothic narratives. Taylor invokes images of decaying plantations and small towns haunted by secrets and sins, emphasizing how the South’s brutal history of slavery, segregation, and racial violence is ever-present in Southern Gothic literature.
+
+The Southern Gothic, according to Taylor, replaces the dark, foggy landscapes of traditional European gothic with the oppressive heat and blinding sun of the South. Instead of haunted castles, it features crumbling plantations and decaying homes, where the past is never fully gone. In this version of the gothic, the horrors of slavery and its aftermath loom large, and the ghosts that haunt these spaces are the consequences of America's racial sins.
+
+### Beyoncé’s "Formation" and Black Gothic Aesthetic
+
+Taylor delves into the contemporary embodiment of Black gothic in pop culture, using Beyoncé’s "Formation" as a prime example. The music video, with its imagery of Southern plantations, gothic fashion, and references to Black Lives Matter, draws on Southern Gothic aesthetics while also infusing it with modern political significance. Taylor highlights how Beyoncé, dressed in a witchy black hat and long lace dress, stands on a plantation porch, surrounded by images of racial oppression and resilience. The juxtaposition of the gothic aesthetic with the urgent political message reflects the deep connection between Black history and America’s gothic soul.
+
+Beyoncé’s performance in "Formation" embodies a gothic sensibility that reclaims the power of Blackness in a space historically associated with violence and oppression. Taylor notes that this portrayal of Southern Black womanhood offers a new kind of gothic hero, one who wields power in the face of a long history of marginalization.
+
+### The Skeleton in America’s Closet
+
+Taylor concludes by addressing America’s ongoing struggle with its "skeletons in the closet"—a metaphor she connects to the country’s unwillingness to fully confront its history of slavery and racism. She traces the origins of the phrase to an 1816 British journal on hereditary diseases, noting how it reflects a deep-seated fear of exposure and accountability. This fear, Taylor argues, is central to the American gothic, where the nation’s past continues to haunt its present.
+
+The gothic mode, with its focus on hidden truths and repressed guilt, is well-suited to exploring the unresolved traumas of America’s racial history. Taylor emphasizes that horror, whether in literature or in real life, is often a reflection of cultural anxieties, and in America, those anxieties are deeply tied to the legacy of slavery.
+
+### Conclusion: Blackness as the American Gothic
+
+Leila Taylor’s *Darkly* redefines the gothic as a mode that is inherently connected to Black history and the American experience. By tracing the connections between the gothic and the legacy of slavery, Taylor argues that Blackness is at the heart of America’s gothic soul. The gothic, with its themes of haunting, liminality, and unresolved trauma, provides a powerful framework for understanding the ways in which America’s past continues to shape its present. Taylor’s exploration of Black history through the lens of the gothic reveals the deep, unsettling truths that lie at the core of the American experience.
+
+
 Sammanfattningar 
 
 **Summary of "Chainmaking: A Note on Ornament, Intelligence, and Building" by Robert Kirkbride**
