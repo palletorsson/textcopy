@@ -1,3 +1,43 @@
+Here's a short explanation of the key parts of the code:
+
+### 1. **Initialization Functions**:
+   - **`initialize_nodes()`**: Sets up references to all required nodes in the scene, such as hands, mesh instances, and visual indicators.
+   - **`initialize_materials()`**: Sets up the shader materials for the mesh and pulse effects.
+
+### 2. **Main Update Logic (`_process()`)**:
+   - Updates every frame. If enough time has passed, it checks the distance between the object and the VR hands, and then runs the proximity control logic (`update_distance_control()`).
+
+### 3. **Proximity Control**:
+   - **`update_distance_control()`**: Calculates the distance between the center object and the VR hands. If the hands are close enough, it triggers actions like mesh scaling, updating shader parameters, and spawning butterflies.
+   - **`handle_proximity()`**: Adjusts the size and position of visual meshes based on hand proximity, controls the shader parameters like frequency, and manages when butterflies should be spawned.
+
+### 4. **Mesh Scaling**:
+   - **`update_mesh_scaling()`**: Expands the left and right hand visual meshes based on proximity.
+   - **`update_mesh_scaling_factor()`**: Adjusts the main mesh's size based on the proximity of both hands and a frequency value.
+
+### 5. **Pulse Control**:
+   - **`manage_pulse()`**: Increases the speed of a pulse effect (handled by the shader) when hands are close.
+   - **`decrease_pulse()`**: Slows down the pulse when hands are farther away.
+
+### 6. **Butterfly Spawning**:
+   - **`update_score_and_spawn_butterflies()`**: Keeps track of the player’s score (based on proximity) and spawns butterflies if the score exceeds a certain threshold.
+   - **`spawn_butterflies()`**: Instantiates new butterflies in the scene and plays an animation.
+
+### 7. **Debugging**:
+   - **`update_debug_label()`**: Updates a debug label with messages to help track what’s happening in the scene.
+
+### Overall Workflow:
+1. **Hand Proximity**: The system checks how close the hands are to the main object.
+2. **Visual Feedback**: The visual indicators (meshes) adjust based on proximity.
+3. **Score System**: If the player interacts with the object enough, it increases their score.
+4. **Butterfly Spawning**: When the score is high enough, butterflies spawn at the object’s position.
+5. **Shader Control**: The shader effects like pulsing and wave frequency are dynamically adjusted based on proximity.
+
+### Purpose:
+The code is designed to react to the player's VR hand movements. It controls visual effects, shader animations, and spawns objects (butterflies) based on the player's interaction with a central object in the scene.
+
+
+
 The last four sections of Leila Taylor's *Darkly* provide a deep exploration of how the gothic mode reveals America's unresolved racial traumas and societal anxieties, particularly through the lens of Black history and culture. These sections explore various ways that the American gothic is shaped by its violent past, including slavery, racism, and ongoing oppression, and how Blackness is central to understanding America's "gothic soul."
 
 ### 1. **Southern Gothic: The Heart of America’s Darkness**
