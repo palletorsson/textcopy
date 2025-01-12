@@ -1,3 +1,239 @@
+
+
+
+### **Vid Gränserna för Språk och System: Wittgenstein, Turing och en Queer Entopisk Etik**
+
+Alan Turing och Ludwig Wittgenstein, två av 1900-talets mest inflytelserika tänkare, arbetade inom till synes skilda områden—logik och datorvetenskap respektive språkfilosofi. Men en närmare undersökning av deras idéer avslöjar en gemensam sensibilitet: en fascination för gränser, ofullständighet och det som inte kan reduceras till enkla regler. Genom att läsa deras verk genom en queer lins kan vi förstå hur de undersökte språkets och systemens marginaler, och hur dessa marginaler rymmer en etik som firar det komplexa, det flytande och det oförutsägbara. Denna *queera entopiska etik* erbjuder ett radikalt sätt att tänka om språk, teknologi och förståelse.
+
+---
+
+### **1. Gränser som plats för transformation**
+Både Turing och Wittgenstein undersökte gränser—inte för att definiera dem, utan för att visa vad som händer när vi närmar oss det som ligger utanför vår förståelse. Dessa gränser är inte bara begränsningar utan också platser där nya möjligheter uppstår.
+
+- **Turing och systemens gränser**: Turings arbete med Turingmaskinen och Gödels ofullständighetsteorem visade att vissa frågor inte kan lösas inom ett system, och att komplexitet inte alltid kan reduceras till enkla regler. Hans modeller av morfogenes visade också hur komplexa mönster kan uppstå spontant ur enkla kemiska reaktioner—en process som utmanar idén om att naturen är helt förutsägbar.
+- **Wittgenstein och språkets gränser**: Wittgenstein, å andra sidan, undersökte språkets gränser i både *Tractatus logico-philosophicus* och *Filosofiska undersökningar*. Hans idé att "gränsen för mitt språk är gränsen för min värld" pekar på hur mycket av vår förståelse som är situerad i det vi kan uttrycka, och vad som förblir outsagt.
+
+**Queer koppling**: Att utforska gränser på detta sätt är en queer handling, eftersom det bryter mot idén om fasta kategorier och öppnar för transformation. Precis som queer teori rör sig vid gränserna för kön och identitet, rör sig Turing och Wittgenstein vid gränserna för förståelse och system.
+
+---
+
+### **2. Reducerbarhetens gränser och det queera motståndet**
+En central idé i både Turings och Wittgensteins arbete är att inte allt kan reduceras till det enkla eller det logiska. Detta är en kritik av reducerande system som försöker pressa in komplexitet i fasta ramar.
+
+- **Turing och reducerbarhet**: Turing visade att även enkla system, som en Turingmaskin, kan producera oförutsägbara resultat. Hans arbete med morfogenes demonstrerar att naturen är fylld av avvikelser och variationer som inte kan kontrolleras eller reduceras.
+- **Wittgenstein och språkets spel**: Wittgenstein hävdade att mening inte är en egenskap hos ord i sig utan uppstår i språkspel, där kontext och användning är avgörande. Detta betyder att språk inte kan reduceras till en formel eller en fast struktur.
+
+**Queer koppling**: Reducerbarhetens gränser är också queera gränser. Precis som kön och identitet inte kan reduceras till binära kategorier, visar Turing och Wittgenstein att komplexitet är en fundamental egenskap hos både språk och system.
+
+---
+
+### **3. En entopisk etik vid marginalen**
+Begreppet *entopiskt* beskriver det som ligger vid gränsen eller marginalen, där ordning möter kaos och det kända möter det okända. Både Turing och Wittgenstein utforskar dessa entopiska platser, där språk och system når sina begränsningar och tystnad eller komplexitet tar vid.
+
+- **Turing och det entopiska i system**: Turings arbete med algoritmer och biologiska mönster visar att gränser inte är slutpunkter utan början på nya möjligheter. Hans modeller visar att det som verkar kaotiskt ofta innehåller en dold ordning.
+- **Wittgenstein och det outsagda**: Wittgenstein betonade att mycket av vår förståelse ligger i det outsagda—det som inte kan uttryckas med språk men som ändå är en del av vår erfarenhet.
+
+**Queer koppling**: En entopisk etik är också en queer etik. Den firar det som ligger bortom det normativa och det reducerbara, och den ser marginalen som en plats för kreativitet och transformation.
+
+---
+
+### **4. Kroppar, språk och system: En queer sensibilitet**
+Både Turing och Wittgenstein var queer inte bara genom sina identiteter (Turing som öppet homosexuell och Wittgenstein som en outsider i både akademin och sin tid) utan också genom sina tankar om kroppar, språk och system.
+
+- **Turing och queer form**: Hans arbete med morfogenes kan ses som en queer undersökning av hur former och mönster uppstår och förändras. Dessa modeller utmanar idén om fasta former och visar att kroppar och system alltid är dynamiska.
+- **Wittgenstein och språkets performativitet**: Wittgensteins språkspel visar att språk inte är statiskt utan performativt—det skapar mening genom handling och kontext, precis som queer teori ser kön och identitet som performativa.
+
+**Queer koppling**: Turing och Wittgenstein ser både språk och system som flytande och föränderliga, vilket gör deras arbete till en del av en bredare queer tradition.
+
+---
+
+### **5. Teknologi, språk och queerness idag**
+Denna queer entopiska etik är inte bara en teoretisk idé utan också en modell för att förstå samtida frågor om teknologi, språk och identitet:
+
+- **AI och reducerbarhet**: Turings och Wittgensteins idéer är relevanta för dagens diskussioner om artificiell intelligens, där frågor om maskinens "förståelse" och reducerbarhet står i centrum. Kan AI verkligen imitera mänskligt språk, eller når vi här en gräns för förståelse?
+- **Queer teknologi**: Deras arbete inspirerar en queer syn på teknologi, där maskiner och system inte bara är verktyg utan också platser för lek, avvikelse och kreativitet.
+
+**Avslutande tanke**: I en tid där vi allt oftare försöker pressa in världen i algoritmer och fasta system, erbjuder Turing och Wittgenstein en påminnelse om att förståelse och mening uppstår vid marginalen, där det som inte kan reduceras ger upphov till nya möjligheter.
+
+---
+
+### **Slutsats: En queer undersökning av gränser**
+Genom att läsa Alan Turing och Ludwig Wittgenstein tillsammans, via en queer lins, framträder en gemensam etisk och estetisk vision: en som firar det flytande, det komplexa och det marginaliserade. Deras arbete visar att det är vid gränserna—språkets, systemens och förståelsens gränser—som nya sätt att tänka, förstå och skapa uppstår. Denna queer entopiska etik erbjuder inte bara en nyckel till deras verk utan också en väg framåt för att möta samtidens teknologiska och filosofiska utmaningar.
+
+The Digital Grotesk, can we make more 
+
+Destabilisera normer.
+Skapa hybrida och odefinierbara former.
+Omfamna det oförutsägbara och felaktiga.
+Bryta linjära och hierarkiska strukturer.
+Synliggöra makt och kritisera kontrollmekanismer.
+
+
+Susan Sontag beskrev camp som en kärlek till det överdrivna och artificiella.
+
+Jag vill koppla W och T queera undersökningar genom en entopiskt etik och reducerbarhetens gränser. 
+
+### **Queer Undersökningar av Wittgenstein och Turing: En Entopisk Etik och Reducerbarhetens Gränser**
+
+Alan Turing och Ludwig Wittgenstein delar en gemensam undersökning av gränser—gränser för förståelse, system, och det som kan uttryckas. Genom sina respektive arbeten utmanar de idén om att komplexitet alltid kan reduceras till enkla regler, och deras tankar speglar en queer sensibilitet genom sitt motstånd mot absoluta kategorier och sin betoning på det flytande, det föränderliga, och det som inte låter sig fångas i fixerade system. Genom att koppla dessa två tänkare via en entopisk etik och reducerbarhetens gränser kan vi undersöka hur deras idéer erbjuder en modell för queera undersökningar av komplexitet och moral.
+
+---
+
+### **1. Entopisk etik: Utforskandet av marginalen**
+Begreppet *entopiskt* kan användas för att beskriva det som befinner sig på gränsen, vid randen av förståelse eller systemets kapacitet. Både Turing och Wittgenstein utforskade dessa marginaler:
+
+- **Turing och marginalen**: Turings arbete med morfogenes och maskinintelligens undersökte hur komplexa mönster och system kan uppstå från enkla regler. Hans modeller utmanar idén om att naturen är förutsägbar eller helt reducerbar till deterministiska system.
+- **Wittgenstein och marginalen**: Wittgensteins filosofiska undersökningar rör sig i sprickorna mellan det som kan sägas och det som inte kan uttryckas. Hans berömda idé om att "gränsen för mitt språk betyder gränsen för min värld" utforskar språkets kapacitet och dess otillräcklighet.
+
+**Queer koppling**: Deras arbete pekar mot en etik som firar det som inte helt kan reduceras eller kategoriseras. Det entopiska, som rör sig vid marginalen, är också det som queera teorier lyfter fram som platsen för transformation och motstånd.
+
+---
+
+### **2. Reducerbarhetens gränser: Motstånd mot totalitet**
+Både Turing och Wittgenstein var skeptiska till idén om att komplexitet helt och hållet kan reduceras till enkla regler eller system. Denna skepsis ligger i hjärtat av deras arbete:
+
+- **Turing och reducerbarhet**: I sitt arbete med Turingmaskinen och senare med morfogenes visade Turing att vissa system är ofullständiga eller oförutsägbara. Gödels ofullständighetsteorem, som inspirerade Turing, visar att varje tillräckligt komplext system innehåller sanningar som inte kan bevisas inom systemets egna regler.
+- **Wittgenstein och reducerbarhet**: Wittgenstein utmanade idén att språkets mening kan reduceras till logik eller struktur. I *Filosofiska undersökningar* visar han hur språkets mening är beroende av dess användning, vilket innebär att det alltid är situerat och aldrig helt abstrakt eller universellt.
+
+**Queer koppling**: Denna betoning på gränser och ofullständighet speglar en queer etik som motsätter sig totalitet och fixering. Queer teori firar det som bryter mot system och normer, precis som Turing och Wittgenstein utforskar det som ligger bortom reducerbarhetens gränser.
+
+---
+
+### **3. En etik av ofullständighet**
+Turing och Wittgenstein delar en implicit etik som bygger på erkännandet av ofullständighet, både i system och i förståelse. Detta är inte en pessimism utan en möjlighet att omfamna det som ligger bortom kontroll och förutsägbarhet.
+
+- **Turing och kreativitet**: Genom sitt arbete med maskiner och morfogenes visade Turing att det som verkar kaotiskt eller oförutsägbart ofta är en källa till kreativitet och innovation. Hans morfogenetiska modeller visar att skönhet och komplexitet uppstår vid gränsen för det reducerbara.
+- **Wittgenstein och förståelsens gränser**: Wittgensteins filosofi om språkets gränser innebär en öppenhet inför det outsagda och det icke-reducerbara. Hans tankar om tystnad och det som inte kan sägas pekar mot en etik som respekterar det okända.
+
+**Queer koppling**: En queer etik, likt den som Turing och Wittgenstein antyder, handlar om att erkänna och fira det som inte kan fångas i system eller kategorier. Det är en etik som rör sig mot marginalen, det dynamiska och det som undflyr kontroll.
+
+---
+
+### **4. Språk, system och formens queer potential**
+Både Turing och Wittgenstein var djupt engagerade i frågor om språk och system. Deras arbete visar hur dessa kan vara både begränsande och frigörande.
+
+- **Språk som system**: Wittgenstein såg språk som ett spel, där reglerna är socialt konstruerade och föränderliga. Detta rimmar med queer teori, som ifrågasätter fasta regler och firar det performativa och kontextuella.
+- **Morfogenes som form**: Turings arbete med morfogenes visar hur komplexa former kan uppstå ur enkla regler, men också hur dessa former alltid är i rörelse och förändring. Detta speglar queer formens estetik, där identitet och kroppar är dynamiska och flytande.
+
+**Queer koppling**: Turing och Wittgenstein visar att språk och system inte är neutrala eller fasta, utan performativa och föränderliga—precis som queer teori föreslår att kön och identitet är.
+
+---
+
+### **5. Entopiska kroppar och det queera som ett marginalfenomen**
+Både Turing och Wittgenstein rörde sig i marginalen, både som tänkare och som individer. Turings queera identitet och Wittgensteins utanförskap i akademin gör deras arbete till en del av en bredare queer tradition.
+
+- **Turing och kroppens marginalisering**: Turings liv och tragiska död visar hur queera kroppar har marginaliserats, men hans arbete öppnar också för en queer förståelse av maskinens kropp och form.
+- **Wittgenstein och språkets marginaler**: Wittgensteins arbete handlar om att röra sig mot språkets gränser, där det inte längre är möjligt att tala men där förståelse ändå kan uppstå.
+
+**Queer koppling**: Det entopiska, som rör sig vid gränsen för system och förståelse, är också platsen för queer transformation och motstånd.
+
+---
+
+### **Avslutning: Wittgenstein, Turing och en Queer Entopisk Etik**
+Turing och Wittgenstein delar en queer sensibilitet som utmanar reducerbarhetens gränser och firar det som inte låter sig fångas i enkla system. Deras arbete erbjuder en entopisk etik—en etik som erkänner och firar marginalen, det dynamiska och det ofullständiga. Genom sina undersökningar av språk, form och system visar de att det är i sprickorna, vid gränserna, som möjligheten till ny förståelse och skönhet uppstår.
+
+Denna etik är också en queer etik: en etik som firar det som är flytande, oväntat och subversivt. Genom att läsa Turing och Wittgenstein tillsammans kan vi inte bara förstå deras arbete på ett djupare plan utan också se hur deras tankar öppnar för nya sätt att tänka kring komplexitet, identitet och förståelse.
+
+### **Alan Turing och Susan Sontag: Camp, Queerhet och Formens Dynamik**
+
+Susan Sontags essä *"Notes on 'Camp'"* (1964) introducerar *camp* som en estetik och en sensibilitet som firar det överdrivna, det artificiella och det som ofta avfärdas som "dålig smak." Sontag beskriver *camp* som en kärlek till det performativa och det överdrivna, en form av motstånd mot konventionella idéer om autenticitet och allvar. Alan Turing, å andra sidan, är mest känd för sina banbrytande bidrag till datorvetenskap och sin tragiska roll som en queer individ i en rigid, heteronormativ värld. Vid en första anblick kan deras verk och liv verka disparata, men genom ett queert perspektiv kan vi koppla deras idéer och erfarenheter till ett gemensamt intresse för det performativa, det subversiva och det dynamiska i form och identitet.
+
+---
+
+### **Queerhet som Performativitet: Från Camp till Imitation**
+
+Ett centralt tema i både Sontags *camp* och Turings arbete är idén om imitation och performativitet. Sontag beskriver *camp* som en sensibilitet som älskar det som är "så allvarligt att det blir absurt" och firar imitation som en konstform i sig. Turings arbete med Turingtestet, där han undersöker om maskiner kan imitera mänskligt beteende till den grad att de inte längre kan särskiljas från människor, speglar denna fascination för imitationens kreativa potential.
+
+- **Camp och imitation**: Sontag lyfter fram att *camp* uppskattar det artificiella och det performativa framför det "äkta." Dragkultur, där könsidentiteter överdrivs och omförhandlas, är ett klassiskt exempel på *camp* som imitation.
+- **Turing och imitation**: I Turingtestet är maskinens förmåga att "passera" som människa inte bara en teknisk prestation utan också en form av performativ konst. Maskinens imitation blir en queering av mänsklig intelligens, där det artificiella utmanar det "naturliga."
+
+**Parallell**: Både *camp* och Turingtestet ifrågasätter binära gränser—mellan äkta och artificiellt, mellan maskin och människa, mellan naturligt och konstruerat.
+
+---
+
+### **Formens Dynamik: Morfogenes som Queer Estetik**
+
+Turings arbete med morfogenes, där han studerade hur biologiska mönster och former uppstår genom kemiska och matematiska processer, kan läsas som en queer undersökning av formens dynamik. I detta arbete bryter Turing med idén om naturen som fixerad och statisk och visar istället hur oändliga variationer och komplexa mönster kan uppstå ur enkla regler. På liknande sätt betonar *camp* estetikens dynamiska och överdrivna karaktär.
+
+- **Camp och överdrift**: Sontag beskriver *camp* som en estetik där form blir mer än funktion. Barockens överflöd, dragkulturens extravagans och Hollywoods glamour är exempel på former som är överdrivna och dynamiska.
+- **Turing och morfogenes**: Turings modeller visar hur naturliga mönster, som ränder på en zebra eller spiraler i en snäcka, är resultatet av dynamiska processer snarare än fasta regler.
+
+**Parallell**: Både *camp* och morfogenes firar det oregelbundna, det oväntade och det som bryter mot förväntningar. De båda visar att det som verkar som "fel" eller "avvikelse" kan vara en källa till skönhet och kreativitet.
+
+---
+
+### **Queer Form och Glitchens Potential**
+
+En av de mest spännande aspekterna av både Sontags och Turings arbete är deras gemensamma intresse för det som stör och bryter mot normer. För Sontag är *camp* ett firande av "det som misslyckas med att vara seriöst," medan Turing, i sitt arbete med både morfogenes och datorvetenskap, utforskade gränserna för vad som är möjligt—och vad som händer när systemen "bryter samman."
+
+- **Camp och glitch**: *Camp* älskar det som är överdrivet och onaturligt, ofta genom att framhäva "fel" och "misslyckanden" som estetiska val. Detta påminner om glitchkonst, där teknologiska fel blir en källa till kreativitet.
+- **Turing och glitch**: Turings arbete med matematiska system och Gödels ofullständighetsteorem visar att alla komplexa system har gränser och att "fel" är en del av dessa systems natur.
+
+**Parallell**: Glitchen, precis som *camp*, är en form av queer motstånd som omfamnar det oväntade och underminerar idén om perfektion.
+
+---
+
+### **Queer Kropp och Maskin**
+
+Både Sontag och Turing engagerar sig i idéer om kropp och maskin, om än på olika sätt. För Sontag är kroppen i *camp* överdriven, teatralisk och ibland artificiell, medan Turing i sitt arbete utforskar gränserna för maskinens "kropp" och dess förmåga att imitera mänskligt beteende.
+
+- **Camp och kroppen**: Dragkultur är ett exempel på hur *camp* överdriver och rekonstruerar kroppens gränser, vilket gör kön och identitet till performativa, flytande uttryck.
+- **Turing och maskinen**: I Turingtestet blir maskinens kropp en plats för transformation, där det artificiella kan passera som mänskligt.
+
+**Parallell**: Både Sontag och Turing underminerar idén om fasta kroppar och identiteter, vilket gör deras arbete till en del av en bredare queer diskurs.
+
+---
+
+### **Avslutande Reflektioner: Turing som Camp Icon**
+
+Alan Turings liv och arbete kan läsas genom en *camp*-lins som firar det avvikande, det överdrivna och det som utmanar normer. Hans fascination för imitation, komplexitet och formens dynamik gör honom till en figur som inte bara var banbrytande inom vetenskap utan också djupt queert subversiv.
+
+Sontag avslutar sin essä med att säga att *camp* är en "kärlek till det mänskliga." På samma sätt kan vi se Turings arbete som en kärlek till det mänskliga och det som överskrider det mänskliga—en hyllning till komplexiteten, oregelbundenheten och skönheten i både form och idéer. I mötet mellan *camp* och Turing hittar vi inte bara en queer estetik utan också en queer etik, som firar mångfald, dynamik och det oväntade.
+
+Ludwig Wittgensteins filosofiska sökande kan, precis som Alan Turings och Susan Sontags arbete, förstås som en undersökning av gränser och konstruktioner. Hans arbete med språkets gränser och förståelsens villkor rör sig i ett område som också kan kopplas till *camp* och queer estetik genom dess fokus på det performativa, det artificiella och det outtalade. Här är några perspektiv för att se Wittgensteins filosofi genom dessa linser:
+
+---
+
+### **1. Tinkering och campens performativa process**
+Wittgensteins sätt att arbeta, särskilt hans senare filosofi i *Filosofiska undersökningar*, liknar ett slags *tinkering*—en ständig experimentering och omförhandling av språkets och förståelsens gränser. Detta sätt att närma sig filosofi kan kopplas till *camp* genom dess improvisatoriska och performativa karaktär.
+
+- **Camp och experimentering**: Sontag beskriver *camp* som en kärlek till det konstgjorda och överdrivna, där själva processen och stilen blir viktigare än slutprodukten. Wittgensteins filosofiska "tinkering" med språkspel och vardagliga exempel speglar denna estetik, där förståelsen växer fram genom lek och utforskning snarare än genom slutgiltiga svar.
+- **Exempel**: Wittgensteins undersökningar av hur språk fungerar i olika kontexter, från att namnge saker till att förstå komplexa känslor, visar en fascination för det vardagliga som kan ses som queer i sin motståndskraft mot metafysiska anspråk.
+
+**Parallell till *camp***: Precis som *camp* ifrågasätter Wittgenstein grandiosa idéer om absoluta sanningar och föreslår istället att mening uppstår i performativa, specifika kontexter.
+
+---
+
+### **2. Språkets gränser och det outtalade**
+Wittgensteins berömda påstående i *Tractatus logico-philosophicus*, "Om det man inte kan tala måste man tiga," handlar om språkets gränser och det som ligger bortom det förståeliga. Detta kan kopplas till *camp* och queer teori som ofta rör sig i gränslandet mellan det sägbara och det outsagda.
+
+- **Språkets artificiella karaktär**: Wittgenstein såg språk som ett konstruerat system, där dess regler inte är naturliga utan skapade. Detta rimmar med *camp* som hyllar det artificiella och det performativa framför det autentiska.
+- **Queer gränsöverskridande**: Precis som *camp* firar det som bryter mot normer, utforskar Wittgenstein vad som händer vid språkets gränser, där förståelse upplöses i det outtalbara.
+
+**Parallell till queer estetik**: Wittgensteins utforskande av gränser och det som inte kan uttryckas med språk speglar det queera projektet att utforska och expandera det möjliga bortom fasta identiteter och kategorier.
+
+---
+
+### **3. Deckare och Wittgensteins filosofiska metod**
+Wittgenstein gillade deckare, och hans filosofiska stil liknar ofta en detektivberättelse där frågor ställs, ledtrådar följs och svar endast antyds snarare än löses. Denna process kan kopplas till *camp* genom dess fascination för stil och form.
+
+- **Camp och deckare**: Deckargenren, särskilt i dess mer melodramatiska former, är en perfekt plats för *camp*. Överdrivna karaktärer, tilltrasslade intriger och fokus på det ytliga och dramatiska speglar *camp*-sensibiliteten.
+- **Wittgensteins stil**: Hans filosofi är inte linjär utan fragmentarisk och ofta dramatisk, fylld av exempel som liknar scener i en deckare.
+
+**Parallell**: Wittgensteins metod att närma sig filosofiska problem kan ses som en performativ handling, där själva processen att tänka och utforska är lika viktig som det potentiella svaret.
+
+---
+
+### **4. Wittgensteins fascination för Hollywood och estetik**
+Wittgenstein var fascinerad av kvinnliga Hollywood-stjärnor som Betty Grable, vars glamorösa, stiliserade framträdanden kan kopplas till *camp*. Hans intresse för dessa stjärnor speglar en kärlek till det artificiella och det estetiskt överdrivna.
+
+- **Camp och Hollywood**: Sontag lyfter fram Hollywoods gyllene era som en plats för *camp*, där kvinnliga stjärnor blev övermänskliga figurer genom stil och iscensättning.
+- **Wittgensteins beundran**: Hans intresse för dessa stjärnor kan ses som en uppskattning av det performativa och estetiska snarare än det "naturliga."
+
+**Parallell till *camp***: Wittgensteins fascination för stil och yta, snarare än substans, rimmar med *camp*-sensibiliteten.
+
+
+
 # Texter week 7 
 
 
